@@ -26,8 +26,7 @@ Version accepted: TBD
 
 
 ## Scope 
-
-- Please indicate which category or categories this package falls under:
+- Please indicate which [category or categories](https://pyopensci.github.io/dev_guide/peer_review/peer_review_proc.html#aims-and-scope) this package falls under:
 	- [ ] Data retrieval
 	- [ ] Data extraction
 	- [ ] Data munging
@@ -35,7 +34,6 @@ Version accepted: TBD
 	- [ ] Data visualization
 	- [ ] Reproducibility
 	- [ ] Geospatial
-	- [ ] Statistics/Machine Learning
 	- [ ] Education
         
 - Explain how the and why the package falls under these categories (briefly, 1-2 sentences):
