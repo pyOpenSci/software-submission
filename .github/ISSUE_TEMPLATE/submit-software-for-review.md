@@ -68,7 +68,7 @@ For details about the pyOpenSci packaging requirements, see our [packaging guide
 - [ ] The package contains a `paper.md` matching [JOSS's requirements](https://joss.readthedocs.io/en/latest/submitting.html#what-should-my-paper-contain) with a high-level description in the package root or in `inst/`.
 - [ ] The package is deposited in a long-term repository with the DOI: 
 
-*Note: Do not submit your package separately to JOSS*)  
+*Note: Do not submit your package separately to JOSS*
   
 </details>
 
