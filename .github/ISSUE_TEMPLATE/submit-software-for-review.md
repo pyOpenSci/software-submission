@@ -74,4 +74,4 @@ For details about the pyOpenSci packaging requirements, see our [packaging guide
 
 ## Code of conduct
 
-- [ ] I agree to abide by [pyOpenSci's Code of Conduct]() during the review process and in maintaining my package should it be accepted.
+- [ ] I agree to abide by [pyOpenSci's Code of Conduct](https://www.pyopensci.org/dev_guide/peer_review/coc.html) during the review process and in maintaining my package should it be accepted.
