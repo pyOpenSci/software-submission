@@ -36,7 +36,7 @@ Version accepted: TBD
 	- [ ] Education
 	- [ ] Data visualization*
 
-* Please fill out a pre-submission inquiry before submitting a data visualization package. For more info, see [this section](https://www.pyopensci.org/dev_guide/peer_review/aims_scope.html#notes-on-categories) of our guidebook.
+\* Please fill out a pre-submission inquiry before submitting a data visualization package. For more info, see [this section](https://www.pyopensci.org/dev_guide/peer_review/aims_scope.html#notes-on-categories) of our guidebook.
 
 - Explain how the and why the package falls under these categories (briefly, 1-2 sentences):
 
