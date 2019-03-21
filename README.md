@@ -1,4 +1,4 @@
-# software-review
+# pyOpenSci Software Peer Review
 
 This repo hosts the pyOpenSci review process. Packages contributed to pyOpenSci undergo an open peer-review by community reviewers. 
 
