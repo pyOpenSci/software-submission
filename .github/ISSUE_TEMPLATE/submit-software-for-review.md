@@ -2,7 +2,7 @@
 name: Submit Software for Review
 about: Use to submit your Python package for peer review
 title: ''
-labels: ''
+labels: 1/editor-checks
 assignees: ''
 
 ---
@@ -62,9 +62,10 @@ For details about the pyOpenSci packaging requirements, see our [packaging guide
 - [ ] Do you wish to automatically submit to the [Journal of Open Source Software](http://joss.theoj.org/)? If so:
 
 <details>
- <summary>JOSS Options</summary>  
+ <summary>JOSS Checks</summary>  
 
 - [ ] The package has an **obvious research application** according to JOSS's definition in their [submission requirements](https://joss.readthedocs.io/en/latest/submitting.html#submission-requirements). Be aware that completing the pyOpenSci review process **does not** guarantee acceptance to JOSS. Be sure to read their submission requirements (linked above) if you are interested in submitting to JOSS. 
+- [ ] The package is not a "minor utility" as defined by JOSS's [submission requirements](https://joss.readthedocs.io/en/latest/submitting.html#submission-requirements): "Minor ‘utility’ packages, including ‘thin’ API clients, are not acceptable." pyOpenSci welcomes these packages under "Data Retrieval", but JOSS has slightly different criteria.
 - [ ] The package contains a `paper.md` matching [JOSS's requirements](https://joss.readthedocs.io/en/latest/submitting.html#what-should-my-paper-contain) with a high-level description in the package root or in `inst/`.
 - [ ] The package is deposited in a long-term repository with the DOI: 
 
