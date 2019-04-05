@@ -52,3 +52,7 @@ Repository Link (if existing):
 - Explain briefly below if there's something specific you'd like help with:
 
 - Any other questions or issues we should be aware of?:
+
+
+
+**P.S.** *Have feedback/comments about our review process? Leave a comment [here](https://github.com/pyOpenSci/governance/issues/8)*

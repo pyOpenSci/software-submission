@@ -38,3 +38,7 @@ Repository Link (if existing):
 -   Are there other Python packages that accomplish the same thing? If so, how does yours differ?
 
 -  Any other questions or issues we should be aware of?:
+
+
+
+**P.S.** *Have feedback/comments about our review process? Leave a comment [here](https://github.com/pyOpenSci/governance/issues/8)*
