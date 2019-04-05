@@ -2,7 +2,7 @@
 name: Help Request
 about: Need some help getting your package ready for review? Submit a request here!
 title: ''
-labels: ''
+labels: Help Request
 assignees: ''
 
 ---

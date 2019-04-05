@@ -2,7 +2,7 @@
 name: Submit Software for Review
 about: Use to submit your Python package for peer review
 title: ''
-labels: 1/editor-checks
+labels: 1/editor-checks, New Submission!
 assignees: ''
 
 ---

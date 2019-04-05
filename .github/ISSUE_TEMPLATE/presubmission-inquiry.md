@@ -2,7 +2,7 @@
 name: Presubmission Inquiry
 about: Not sure if your software fits? Submit a presubmission inquiry to the editors
 title: ''
-labels: ''
+labels: 0/presubmission
 assignees: ''
 
 ---
