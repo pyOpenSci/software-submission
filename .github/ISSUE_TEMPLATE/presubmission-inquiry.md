@@ -8,15 +8,15 @@ assignees: ''
 ---
 
 Submitting Author: Name (@github_handle)  
+Package Name: 
+One-Line Description of Package: 
 Repository Link (if existing):   
 
 ---
 
--   Paste the full DESCRIPTION file inside a code block below:
+## Description
 
-```
-
-```
+- Include a brief paragraph describing what your package does:
 
 ## Scope 
 

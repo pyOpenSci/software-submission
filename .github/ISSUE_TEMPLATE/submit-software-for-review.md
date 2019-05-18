@@ -8,6 +8,8 @@ assignees: ''
 ---
 
 Submitting Author: Name (@github_handle)  
+Package Name: 
+One-Line Description of Package: 
 Repository Link:  
 Version submitted:   
 Editor: TBD  
@@ -18,12 +20,9 @@ Version accepted: TBD
 
 ---
 
--   Paste the full DESCRIPTION file inside a code block below:
+## Description
 
-```
-
-```
-
+- Include a brief paragraph describing what your package does:
 
 ## Scope 
 - Please indicate which [category or categories](https://www.pyopensci.org/dev_guide/peer_review/aims_scope.html) this package falls under:
