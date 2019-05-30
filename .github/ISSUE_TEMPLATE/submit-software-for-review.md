@@ -56,6 +56,7 @@ For details about the pyOpenSci packaging requirements, see our [packaging guide
 - [ ] contains a vignette with examples of its essential functions and uses.
 - [ ] has a test suite.
 - [ ] has continuous integration, such as Travis CI, AppVeyor, CircleCI, and/or others.
+
 ## Publication options
 
 - [ ] Do you wish to automatically submit to the [Journal of Open Source Software](http://joss.theoj.org/)? If so:
@@ -71,6 +72,11 @@ For details about the pyOpenSci packaging requirements, see our [packaging guide
 *Note: Do not submit your package separately to JOSS*
   
 </details>
+
+## Are you OK with Reviewers Submitting Issues to your Repo Directly?
+This option will allow reviewers to open smaller issues that can then be linked to PR's rather than submitting a more dense text based review. It will also allow you to demonstrate addressing the issue via PR links.
+
+- [ ] Yes I am OK with reviewers submitting requested changes as issues to my repo. Reviewers will then link to the issues in their submitted review.
 
 ## Code of conduct
 
