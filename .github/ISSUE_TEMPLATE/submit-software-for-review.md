@@ -84,3 +84,7 @@ This option will allow reviewers to open smaller issues that can then be linked 
 
 
 **P.S.** *Have feedback/comments about our review process? Leave a comment [here](https://github.com/pyOpenSci/governance/issues/8)*
+
+## Editor and Review Templates
+
+[Editor and review templates can be found here](https://www.pyopensci.org/dev_guide/appendices/templates.html)
