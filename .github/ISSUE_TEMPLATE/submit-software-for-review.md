@@ -43,7 +43,7 @@ Version accepted: TBD
 
 -   Are there other Python packages that accomplish the same thing? If so, how does yours differ?
 
--   If you made a pre-submission enquiry, please paste the link to the corresponding issue, forum post, or other discussion, or @tag the editor you contacted:
+-   If you made a pre-submission enquiry, please paste the link to the corresponding issue, forum post, or other discussion, or `@tag` the editor you contacted:
 
 ## Technical checks
 
