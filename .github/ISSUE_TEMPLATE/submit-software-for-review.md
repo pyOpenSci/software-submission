@@ -73,10 +73,10 @@ For details about the pyOpenSci packaging requirements, see our [packaging guide
   
 </details>
 
-## Are you OK with Reviewers Submitting Issues to your Repo Directly?
+## Are you OK with Reviewers Submitting Issues and/or pull requests to your Repo Directly?
 This option will allow reviewers to open smaller issues that can then be linked to PR's rather than submitting a more dense text based review. It will also allow you to demonstrate addressing the issue via PR links.
 
-- [ ] Yes I am OK with reviewers submitting requested changes as issues to my repo. Reviewers will then link to the issues in their submitted review.
+- [x] Yes I am OK with reviewers submitting requested changes as issues to my repo. Reviewers will then link to the issues in their submitted review.
 
 ## Code of conduct
 
