@@ -80,11 +80,11 @@ This option will allow reviewers to open smaller issues that can then be linked 
 
 ## Code of conduct
 
-- [ ] I agree to abide by [pyOpenSci's Code of Conduct](https://www.pyopensci.org/dev_guide/peer_review/coc.html) during the review process and in maintaining my package should it be accepted.
+- [ ] I agree to abide by [pyOpenSci's Code of Conduct](https://www.pyopensci.org/contributing-guide/peer_review/coc.html) during the review process and in maintaining my package should it be accepted.
 
 
 **P.S.** *Have feedback/comments about our review process? Leave a comment [here](https://github.com/pyOpenSci/governance/issues/8)*
 
 ## Editor and Review Templates
 
-[Editor and review templates can be found here](https://www.pyopensci.org/dev_guide/appendices/templates.html)
+[Editor and review templates can be found here](https://www.pyopensci.org/contributing-guide/appendices/templates.html)
