@@ -20,7 +20,7 @@ Repository Link (if existing):
 
 ## Scope 
 
-- Please indicate which [category or categories](https://pyopensci.github.io/dev_guide/peer_review/peer_review_proc.html#aims-and-scope) this package falls under:
+- Please indicate which [category or categories][PackageCatagories] this package falls under:
 	- [ ] Data retrieval
 	- [ ] Data extraction
 	- [ ] Data munging
@@ -41,4 +41,9 @@ Repository Link (if existing):
 
 
 
-**P.S.** *Have feedback/comments about our review process? Leave a comment [here](https://github.com/pyOpenSci/governance/issues/8)*
+**P.S.** *Have feedback/comments about our review process? Leave a comment [here][Comments]
+
+
+[PackageCatagories]: https://www.pyopensci.org/contributing-guide/open-source-software-peer-review/aims-and-scope.html?highlight=data#package-categories
+
+[Comments]: https://github.com/pyOpenSci/governance/issues/8
