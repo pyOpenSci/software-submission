@@ -26,7 +26,7 @@ Repository Link (if existing):
 
 ```
 
-- Please indicate which [category or categories][PackageCatagories] this package falls under:
+- Please indicate which [category or categories][PackageCategories] this package falls under:
 	- [ ] Data retrieval
 	- [ ] Data extraction
 	- [ ] Data munging
@@ -59,6 +59,6 @@ Repository Link (if existing):
 
 [PackagingGuide]: https://www.pyopensci.org/contributing-guide/authoring/index.html#packaging-guide
 
-[PackageCatagories]: https://www.pyopensci.org/contributing-guide/open-source-software-peer-review/aims-and-scope.html?highlight=data#package-categories
+[PackageCategories]: https://www.pyopensci.org/contributing-guide/open-source-software-peer-review/aims-and-scope.html?highlight=data#package-categories
 
 [Comments]: https://github.com/pyOpenSci/governance/issues/8
