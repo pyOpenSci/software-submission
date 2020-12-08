@@ -104,8 +104,6 @@ This option will allow reviewers to open smaller issues that can then be linked 
 
 [PyOpenSciCodeOfConduct]: https://www.pyopensci.org/contributing-guide/open-source-software-peer-review/code-of-conduct.html?highlight=code%20conduct
 
-[GovernanceIssues]: https://github.com/pyOpenSci/governance/issues/8
-
 [OsiApprovedLicense]: https://opensource.org/licenses
 
 [Templates]: https://www.pyopensci.org/contributing-guide/appendices/templates.html
