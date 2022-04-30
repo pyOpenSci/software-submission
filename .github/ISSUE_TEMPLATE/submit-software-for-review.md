@@ -35,15 +35,16 @@ Version accepted: TBD
 	- [ ] Education
 	- [ ] Data visualization*
 
-\* Please fill out a pre-submission inquiry before submitting a data visualization package. For more info, see [notes on categories][NotesOnCategories] of our guidebook.
+> *Please fill out a pre-submission inquiry before submitting a data visualization package. For more info, see [notes on categories][NotesOnCategories] of our guidebook.*
 
-- Explain how the and why the package falls under these categories (briefly, 1-2 sentences):
 
--   Who is the target audience and what are scientific applications of this package?  
+- **For all submissions**, explain how the and why the package falls under the categories you indicated above. In your explanation, please address the following points (briefly, 1-2 sentences for each):  
 
--   Are there other Python packages that accomplish the same thing? If so, how does yours differ?
+  - Who is the target audience and what are scientific applications of this package?  
 
--   If you made a pre-submission enquiry, please paste the link to the corresponding issue, forum post, or other discussion, or `@tag` the editor you contacted:
+  - Are there other Python packages that accomplish the same thing? If so, how does yours differ?
+
+  - If you made a pre-submission enquiry, please paste the link to the corresponding issue, forum post, or other discussion, or `@tag` the editor you contacted:
 
 ## Technical checks
 
