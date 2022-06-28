@@ -1,3 +1,11 @@
+## pyOpenSci is on pause while we get setup at a new home
+
+*IMPORTANT NOTE:* Hi there Python open source colleague! This is a friendly note that pyOpenSci is currently 
+on pause while we move to a new home. We will be back, up and running in the fall (likely 
+September) 2022! We suggest that you hold off submitting your package until we are back in 
+operations in September 2022. If you have questions, please reach out to us using 
+our [discourse forum](https://pyopensci.discourse.group/) 
+
 ---
 name: Submit Software for Review
 about: Use to submit your Python package for peer review
