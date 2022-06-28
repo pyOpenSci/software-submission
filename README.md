@@ -3,6 +3,8 @@
 ## READ ME FIRST
 pyOpenSci is currently on pause while we move to a new home. We will be back in action in September 2022. We suggest that you hold off on submitting a package for review until the fall 2022. Questions? Please feel free to post in the [discussions section of this repository](https://github.com/pyOpenSci/software-review/discussions).
 
+## About this repo
+
 This repo hosts the pyOpenSci review process. Packages contributed to pyOpenSci undergo an open peer-review by community reviewers.
 
 If you are interested in submitting a package, check out our [guidebook][Guidebook] for info about how to package your code and submit a request for review. For authors, the most important sections are the [scope of pyOpenSci][Scope], the [author guide][AuthorGuide], and the [
