@@ -25,7 +25,7 @@ Reviewer 1: TBD
 Reviewer 2: TBD  
 Archive: TBD  
 Version accepted: TBD   
-
+Date accepted (month/day/year): TBD
 ---
 
 ## Description
