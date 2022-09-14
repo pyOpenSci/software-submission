@@ -1,31 +1,25 @@
-## pyOpenSci is on pause while we get setup at a new home
-
-*IMPORTANT NOTE:* Hi there Python open source colleague! This is a friendly note that pyOpenSci is currently 
-on pause while we move to a new home. We will be back, up and running in the fall (likely 
-September) 2022! We suggest that you hold off submitting your package until we are back in 
-operations in September 2022. If you have questions, please reach out to us using 
-the [discussions section of this repository](https://github.com/pyOpenSci/software-review/discussions). 
-
 ---
 name: Submit Software for Review
-about: Use to submit your Python package for peer review
+about: Use to submit your Python package for pyOpenSci peer review
 title: ''
 labels: 1/editor-checks, New Submission!
 assignees: ''
 
 ---
 
-Submitting Author: Name (@github_handle)  
-Package Name: 
-One-Line Description of Package: 
+Submitting Author: Name (@github_handle)
+All current maintainers: (@github_handle1, @github_handle2)
+Package Name: Package name here
+One-Line Description of Package: Description here 
 Repository Link:  
 Version submitted:   
 Editor: TBD  
 Reviewer 1: TBD  
 Reviewer 2: TBD  
 Archive: TBD  
-Version accepted: TBD   
+Version accepted: TBD 
 Date accepted (month/day/year): TBD
+
 ---
 
 ## Description
