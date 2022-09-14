@@ -1,8 +1,6 @@
-## pyOpenSci Software Submission 
-
 ---
 name: Submit Software for Review
-about: Use to submit your Python package for peer review
+about: Use to submit your Python package for pyOpenSci peer review
 title: ''
 labels: 1/editor-checks, New Submission!
 assignees: ''
@@ -10,7 +8,7 @@ assignees: ''
 ---
 
 Submitting Author: Name (@github_handle)
-List of all maintainers: (@github_handle1, @github_handle2)
+All current maintainers: (@github_handle1, @github_handle2)
 Package Name: Package name here
 One-Line Description of Package: Description here 
 Repository Link:  
