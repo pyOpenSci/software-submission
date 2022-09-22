@@ -2,16 +2,26 @@
 
 ## About this repo
 
-This repo hosts the pyOpenSci review process. Packages contributed to pyOpenSci undergo an open peer-review by community reviewers.
+This repo hosts the pyOpenSci review process. Packages contributed to pyOpenSci 
+undergo an open peer-review by community reviewers.
 
-If you are interested in submitting a package, check out our [guidebook][Guidebook] for info about how to package your code and submit a request for review. For authors, the most important sections are the [scope of pyOpenSci][Scope], the [author guide][AuthorGuide], and the [
-packaging guide][PackagingGuide]. For details about the exact timeline and process of peer-review, see [peer review timeline][PeerReviewTimeline].
+If you are interested in submitting a package, check out our 
+[guidebook][Guidebook] for info about how to package your code and submit a 
+request for review. For authors, the most important sections are the 
+[scope of pyOpenSci][Scope], the [author guide][AuthorGuide], and the 
+[packaging guide][PackagingGuide]. For details about the exact timeline and 
+process of peer-review, see [peer review timeline][PeerReviewTimeline].
 
-When you are ready to submit for review, fill out the [Submission template][SubmissionTemplate]
-.
+When you are ready to submit for review, fill out the 
+[Peer review Submission template][SubmissionTemplate].
 
-If your package is not yet fully-developed or you're not sure whether it fits within pyOpenSci's [
-scope][Scope], you can create a [presubmission inquiry issue][PresubmissionInquiryIssue].
+If your package is not yet fully-developed or you're not sure whether it fits 
+within pyOpenSci's [scope][Scope], you can create a 
+[presubmission inquiry issue][PresubmissionInquiryIssue].
+
+** Note - we are currently in the process of updating our authoring guide
+and sunsetting our cookie cutter template. Once these items are updated we will
+update this readme here! In the meantime, peer review will continue to run!**
 
 [Guidebook]: https://www.pyopensci.org/contributing-guide/intro.html
 
