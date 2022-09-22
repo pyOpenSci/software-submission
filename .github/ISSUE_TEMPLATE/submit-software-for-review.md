@@ -85,6 +85,10 @@ This option will allow reviewers to open smaller issues that can then be linked 
 
 - [ ] I agree to abide by [pyOpenSci's Code of Conduct][PyOpenSciCodeOfConduct] during the review process and in maintaining my package should it be accepted.
 
+## Please fill out our survey
+- [ ] [Last but not least please fill out our pre-review survey](https://forms.gle/F9mou7S3jhe8DMJ16). This helps us track
+submission and improve our peer review process. We will also ask our reviewers 
+and editors to fill this out.
 
 **P.S.** *Have feedback/comments about our review process? Leave a comment [here][Comments]
 
