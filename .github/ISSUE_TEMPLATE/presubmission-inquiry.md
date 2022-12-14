@@ -40,10 +40,17 @@ Repository Link (if existing):
 - Any other questions or issues we should be aware of:
 
 
+- [ ] Please make sure that you took notice of our [Community Code of Conduct][Conduct] and are able to commit to the package maintainance as per our [Policies Guidelines][Commitment].
+
+
 
 **P.S.** *Have feedback/comments about our review process? Leave a comment [here][Comments]
 
 
 [PackageCategories]: https://www.pyopensci.org/contributing-guide/open-source-software-peer-review/aims-and-scope.html?highlight=data#package-categories
+
+[Conduct]: https://www.pyopensci.org/peer-review-guide/about-peer-review/code-of-conduct.html
+
+[Commitment]: https://www.pyopensci.org/peer-review-guide/about-peer-review/policies-guidelines.html#after-acceptance-package-ownership-and-maintenance
 
 [Comments]: https://github.com/pyOpenSci/governance/issues/8
