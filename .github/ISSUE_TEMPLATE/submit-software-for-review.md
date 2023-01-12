@@ -94,7 +94,9 @@ and editors to fill this out.
 
 ## Editor and Review Templates
 
-[Editor and review templates can be found here][Templates]
+The [editor template can be found here][Editor Template].
+
+The [review template can be found here][Review Template].
 
 [PackagingGuide]: https://www.pyopensci.org/contributing-guide/authoring/index.html#packaging-guide
 
@@ -113,6 +115,8 @@ and editors to fill this out.
 
 [OsiApprovedLicense]: https://opensource.org/licenses
 
-[Templates]: https://www.pyopensci.org/contributing-guide/appendices/templates.html
+[Editor Template]: https://www.pyopensci.org/peer-review-guide/software-peer-review-guide/editors-guide.html#respond-to-the-submitter-in-the-github-issue
+
+[Review Template]: https://www.pyopensci.org/peer-review-guide/software-peer-review-guide/reviewer-guide.html#peer-review-template
 
 [Comments]: https://github.com/pyOpenSci/governance/issues/8
