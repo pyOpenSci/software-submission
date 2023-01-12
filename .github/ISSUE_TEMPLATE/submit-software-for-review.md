@@ -26,6 +26,13 @@ Date accepted (month/day/year): TBD
 
 - Include a brief paragraph describing what your package does:
 
+## Community Partnerships
+We partner with communities to support peer review with an additional layer of 
+checks that satisfy community requirements. If your package fits into an 
+existing community please check below:
+
+- [ ] Pangeo
+
 ## Scope 
 - Please indicate which [category or categories][PackageCategories] this package falls under:
 	- [ ] Data retrieval
