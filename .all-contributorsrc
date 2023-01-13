@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "cmarmo",
+      "name": "Chiara Marmo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1662261?v=4",
+      "profile": "https://orcid.org/0000-0003-2843-6044",
+      "contributions": [
+        "doc",
+        "ideas"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "software-review",
+  "projectOwner": "pyOpenSci"
+}
