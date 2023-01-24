@@ -31,7 +31,8 @@ We partner with communities to support peer review with an additional layer of
 checks that satisfy community requirements. If your package fits into an 
 existing community please check below:
 
-- [ ] Pangeo
+- [ ] [Pangeo][pangeoWebsite]
+	- [ ] My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
 
 ## Scope 
 - Please indicate which [category or categories][PackageCategories] this package falls under:
@@ -127,3 +128,7 @@ The [review template can be found here][Review Template].
 [Review Template]: https://www.pyopensci.org/peer-review-guide/software-peer-review-guide/reviewer-guide.html#peer-review-template
 
 [Comments]: https://github.com/pyOpenSci/governance/issues/8
+
+[PangeoCollaboration]: https://www.pyopensci.org/scientific-communities/pangeo-collaboration
+
+[pangeoWebsite]: https://www.pangeo.io
