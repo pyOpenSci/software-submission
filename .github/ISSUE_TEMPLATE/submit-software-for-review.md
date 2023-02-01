@@ -22,13 +22,19 @@ Date accepted (month/day/year): TBD
 
 ---
 
+## Code of Conduct
+
+- [ ] I agree to abide by [pyOpenSci's Code of Conduct][PyOpenSciCodeOfConduct] during the review process and in maintaining my package should it be accepted.
+
 ## Description
 
 - Include a brief paragraph describing what your package does:
 
 
 ## Scope 
-- Please indicate which [category or categories][PackageCategories] this package falls under (If you are unsure of which category you fit, we suggest you make a pre-submission inquiry):
+- Please indicate which category or categories. 
+Check out our [package scope page][PackageCategories] to learn more about our 
+scope. (If you are unsure of which category you fit, we suggest you make a pre-submission inquiry):
 
 	- [ ] Data retrieval
 	- [ ] Data extraction
@@ -55,7 +61,6 @@ existing community please check below:
 	- [ ] My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
 
 > ** Please fill out a pre-submission inquiry before submitting a data visualization package.*
-
 
 - **For all submissions**, explain how the and why the package falls under the categories you indicated above. In your explanation, please address the following points (briefly, 1-2 sentences for each):  
 
@@ -102,10 +107,6 @@ Confirm each of the following by checking the box.
 
 - [ ] I have read the [author guide](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html). 
 - [ ] I expect to maintain this package for at least 2 years and can help find a replacement for the maintainer (team) if needed.
-
-## Code of Conduct
-
-- [ ] I agree to abide by [pyOpenSci's Code of Conduct][PyOpenSciCodeOfConduct] during the review process and in maintaining my package should it be accepted.
 
 ## Please fill out our survey
 - [ ] [Last but not least please fill out our pre-review survey](https://forms.gle/F9mou7S3jhe8DMJ16). This helps us track

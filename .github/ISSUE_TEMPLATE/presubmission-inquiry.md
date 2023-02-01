@@ -14,6 +14,9 @@ Repository Link (if existing):
 
 ---
 
+## Code of Conduct & Commitment to Maintain Package
+
+- [ ] I agree to abide by [pyOpenSci's Code of Conduct][PyOpenSciCodeOfConduct] during the review process and in maintaining my package after should it be accepted.
 - [ ]I have read and will commit to package maintenance after the review as per the [pyOpenSci Policies Guidelines][Commitment].
 
 ## Description
@@ -31,14 +34,23 @@ existing community please check below:
 ## Scope 
 
 - Please indicate which [category or categories][PackageCategories] this package falls under:
+
 	- [ ] Data retrieval
 	- [ ] Data extraction
-	- [ ] Data munging
+	- [ ] Data processing/munging
 	- [ ] Data deposition
-	- [ ] Data visualization
-	- [ ] Reproducibility
+	- [ ] Data validation and testing
+	- [ ] Data visualization **
+	- [ ] Workflow automation
+	- [ ] Citation management and bibliometrics
+	- [ ] Scientific software wrappers
+	- [ ] Database interoperability
+
+Domain Specific & Community Partnerships 
+
 	- [ ] Geospatial
 	- [ ] Education
+	- [ ] Pangeo
 	- [ ] Unsure/Other (explain below)
         
 - Explain how and why the package falls under these categories (briefly, 1-2 sentences). Please note any areas you are unsure of:
@@ -65,3 +77,4 @@ existing community please check below:
 
 [pangeoWebsite]: https://www.pangeo.io
 
+[PyOpenSciCodeOfConduct]: https://www.pyopensci.org/governance/CODE_OF_CONDUCT
