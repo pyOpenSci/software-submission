@@ -15,12 +15,23 @@
         "doc",
         "ideas"
       ]
+    },
+    {
+      "login": "Batalex",
+      "name": "Alex Batisse",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11004857?v=4",
+      "profile": "http://batalex.github.io",
+      "contributions": [
+        "code",
+        "design",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
   "skipCi": true,
   "repoType": "github",
   "repoHost": "https://github.com",
-  "projectName": "software-review",
+  "projectName": "software-submission",
   "projectOwner": "pyOpenSci"
 }
