@@ -22,9 +22,10 @@ Date accepted (month/day/year): TBD
 
 ---
 
-## Code of Conduct
+## Code of Conduct & Commitment to Maintain Package
 
-- [ ] I agree to abide by [pyOpenSci's Code of Conduct][PyOpenSciCodeOfConduct] during the review process and in maintaining my package should it be accepted.
+- [ ] I agree to abide by [pyOpenSci's Code of Conduct][PyOpenSciCodeOfConduct] during the review process and in maintaining my package after should it be accepted.
+- [ ]I have read and will commit to package maintenance after the review as per the [pyOpenSci Policies Guidelines][Commitment].
 
 ## Description
 
@@ -142,3 +143,4 @@ The [review template can be found here][Review Template].
 [PangeoCollaboration]: https://www.pyopensci.org/software-peer-review/partners/pangeo
 
 [pangeoWebsite]: https://www.pangeo.io
+[Commitment]: https://www.pyopensci.org/software-peer-review/our-process/policies.html#after-acceptance-package-ownership-and-maintenance
