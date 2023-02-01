@@ -57,8 +57,8 @@ Repository Link (if existing):
 **P.S.** *Have feedback/comments about our review process? Leave a comment [here][Comments]
 
 
-[PackagingGuide]: https://www.pyopensci.org/contributing-guide/authoring/index.html#packaging-guide
+[PackagingGuide]: https://www.pyopensci.org/python-package-guide/
 
-[PackageCategories]: https://www.pyopensci.org/contributing-guide/open-source-software-peer-review/aims-and-scope.html?highlight=data#package-categories
+[PackageCategories]: https://www.pyopensci.org/software-peer-review/about/package-scope.html
 
-[Comments]: https://github.com/pyOpenSci/governance/issues/8
+[Comments]: https://pyopensci.discourse.group/

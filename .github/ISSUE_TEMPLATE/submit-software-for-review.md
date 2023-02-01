@@ -26,26 +26,36 @@ Date accepted (month/day/year): TBD
 
 - Include a brief paragraph describing what your package does:
 
-## Community Partnerships
-We partner with communities to support peer review with an additional layer of 
-checks that satisfy community requirements. If your package fits into an 
-existing community please check below:
 
+## Scope 
+- Please indicate which [category or categories][PackageCategories] this package falls under (If you are unsure of which category you fit, we suggest you make a pre-submission inquiry):
+
+	- [ ] Data retrieval
+	- [ ] Data extraction
+	- [ ] Data processing/munging
+	- [ ] Data deposition
+	- [ ] Data validation and testing
+	- [ ] Data visualization **
+	- [ ] Workflow automation
+	- [ ] Citation management and bibliometrics
+	- [ ] Scientific software wrappers
+	- [ ] Database interoperability
+
+Domain Specific & Community Partnerships 
+
+	- [ ] Geospatial
+	- [ ] Education
+	- [ ] Pangeo
+	
+
+## Community Partnerships
+If your package is associated with an 
+existing community please check below:
 - [ ] [Pangeo][pangeoWebsite]
 	- [ ] My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
 
-## Scope 
-- Please indicate which [category or categories][PackageCategories] this package falls under:
-	- [ ] Data retrieval
-	- [ ] Data extraction
-	- [ ] Data munging
-	- [ ] Data deposition
-	- [ ] Reproducibility
-	- [ ] Geospatial
-	- [ ] Education
-	- [ ] Data visualization*
 
-> *Please fill out a pre-submission inquiry before submitting a data visualization package. For more info, see [notes on categories][NotesOnCategories] of our guidebook.*
+> ** Please fill out a pre-submission inquiry before submitting a data visualization package.*
 
 
 - **For all submissions**, explain how the and why the package falls under the categories you indicated above. In your explanation, please address the following points (briefly, 1-2 sentences for each):  
@@ -68,7 +78,7 @@ For details about the pyOpenSci packaging requirements, see our [packaging guide
 - [ ] has a test suite.
 - [ ] has continuous integration, such as Travis CI, AppVeyor, CircleCI, and/or others.
 
-## Publication options
+## Publication Options
 
 - [ ] Do you wish to automatically submit to the [Journal of Open Source Software][JournalOfOpenSourceSoftware]? If so:
 
@@ -106,12 +116,9 @@ The [editor template can be found here][Editor Template].
 
 The [review template can be found here][Review Template].
 
-[PackagingGuide]: https://www.pyopensci.org/contributing-guide/authoring/index.html#packaging-guide
+[PackagingGuide]: https://www.pyopensci.org/python-package-guide/
 
-[PackageCategories]: https://www.pyopensci.org/contributing-guide/open-source-software-peer-review/aims-and-scope.html?highlight=data#package-categories
-
-[NotesOnCategories]: https://www.pyopensci.org/contributing-guide/open-source-software-peer-review/aims-and-scope.html?highlight=data#notes-on-categories
-
+[PackageCategories]: https://www.pyopensci.org/software-peer-review/about/package-scope.html
 
 [JournalOfOpenSourceSoftware]: http://joss.theoj.org/
 
@@ -119,16 +126,14 @@ The [review template can be found here][Review Template].
 
 [JossPaperRequirements]: https://joss.readthedocs.io/en/latest/submitting.html#what-should-my-paper-contain
 
-[PyOpenSciCodeOfConduct]: https://www.pyopensci.org/contributing-guide/open-source-software-peer-review/code-of-conduct.html?highlight=code%20conduct
+[PyOpenSciCodeOfConduct]: https://www.pyopensci.org/governance/CODE_OF_CONDUCT
 
 [OsiApprovedLicense]: https://opensource.org/licenses
 
-[Editor Template]: https://www.pyopensci.org/peer-review-guide/software-peer-review-guide/editors-guide.html#respond-to-the-submitter-in-the-github-issue
+[Templates]: https://www.pyopensci.org/software-peer-review/appendices/templates.html
 
-[Review Template]: https://www.pyopensci.org/peer-review-guide/software-peer-review-guide/reviewer-guide.html#peer-review-template
+[Comments]: https://pyopensci.discourse.group/
 
-[Comments]: https://github.com/pyOpenSci/governance/issues/8
-
-[PangeoCollaboration]: https://www.pyopensci.org/scientific-communities/pangeo-collaboration
+[PangeoCollaboration]: https://www.pyopensci.org/software-peer-review/partners/pangeo
 
 [pangeoWebsite]: https://www.pangeo.io

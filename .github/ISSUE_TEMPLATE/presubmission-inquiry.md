@@ -14,6 +14,8 @@ Repository Link (if existing):
 
 ---
 
+- [ ]I have read and will commit to package maintenance after the review as per the [pyOpenSci Policies Guidelines][Commitment].
+
 ## Description
 
 - Include a brief paragraph describing what your package does:
@@ -23,7 +25,8 @@ We partner with communities to support peer review with an additional layer of
 checks that satisfy community requirements. If your package fits into an 
 existing community please check below:
 
-- [ ] Pangeo
+- [ ] [Pangeo][pangeoWebsite]
+	- [ ] My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
 
 ## Scope 
 
@@ -47,17 +50,18 @@ existing community please check below:
 - Any other questions or issues we should be aware of:
 
 
-- [ ] Please make sure that you took notice of our [Community Code of Conduct][Conduct] and are able to commit to the package maintainance as per our [Policies Guidelines][Commitment].
-
-
-
 **P.S.** *Have feedback/comments about our review process? Leave a comment [here][Comments]
 
 
-[PackageCategories]: https://www.pyopensci.org/contributing-guide/open-source-software-peer-review/aims-and-scope.html?highlight=data#package-categories
+[PackageCategories]: https://www.pyopensci.org/software-peer-review/about/package-scope.html
 
-[Conduct]: https://www.pyopensci.org/peer-review-guide/about-peer-review/code-of-conduct.html
+[Conduct]: https://www.pyopensci.org/governance/CODE_OF_CONDUCT
 
-[Commitment]: https://www.pyopensci.org/peer-review-guide/about-peer-review/policies-guidelines.html#after-acceptance-package-ownership-and-maintenance
+[Commitment]: https://www.pyopensci.org/software-peer-review/our-process/policies.html#after-acceptance-package-ownership-and-maintenance
 
-[Comments]: https://github.com/pyOpenSci/governance/issues/8
+[Comments]: https://pyopensci.discourse.group/
+
+[PangeoCollaboration]: https://www.pyopensci.org/software-peer-review/partners/pangeo
+
+[pangeoWebsite]: https://www.pangeo.io
+
