@@ -54,7 +54,6 @@ existing community please check below:
 - [ ] [Pangeo][pangeoWebsite]
 	- [ ] My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
 
-
 > ** Please fill out a pre-submission inquiry before submitting a data visualization package.*
 
 
@@ -68,15 +67,15 @@ existing community please check below:
 
 ## Technical checks
 
-For details about the pyOpenSci packaging requirements, see our [packaging guide][PackagingGuide]. Confirm each of the following by checking the box.  This package:
+For details about the pyOpenSci packaging requirements, see our [packaging guide][PackagingGuide]. Confirm each of the following by checking the box. This package:
 
 - [ ] does not violate the Terms of Service of any service it interacts with. 
-- [ ] has an [OSI approved license][OsiApprovedLicense].
+- [ ] uses an [OSI approved license][OsiApprovedLicense].
 - [ ] contains a README with instructions for installing the development version. 
 - [ ] includes documentation with examples for all functions.
-- [ ] contains a vignette with examples of its essential functions and uses.
+- [ ] contains a tutorial with examples of its essential functions and uses.
 - [ ] has a test suite.
-- [ ] has continuous integration, such as Travis CI, AppVeyor, CircleCI, and/or others.
+- [ ] has continuous integration setup, such as GitHub Actions CircleCI, and/or others.
 
 ## Publication Options
 
@@ -99,7 +98,12 @@ This option will allow reviewers to open smaller issues that can then be linked 
 
 - [x] Yes I am OK with reviewers submitting requested changes as issues to my repo. Reviewers will then link to the issues in their submitted review.
 
-## Code of conduct
+Confirm each of the following by checking the box.
+
+- [ ] I have read the [author guide](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html). 
+- [ ] I expect to maintain this package for at least 2 years and can help find a replacement for the maintainer (team) if needed.
+
+## Code of Conduct
 
 - [ ] I agree to abide by [pyOpenSci's Code of Conduct][PyOpenSciCodeOfConduct] during the review process and in maintaining my package should it be accepted.
 
