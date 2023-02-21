@@ -22,23 +22,46 @@ Date accepted (month/day/year): TBD
 
 ---
 
+## Code of Conduct & Commitment to Maintain Package
+
+- [ ] I agree to abide by [pyOpenSci's Code of Conduct][PyOpenSciCodeOfConduct] during the review process and in maintaining my package after should it be accepted.
+- [ ]I have read and will commit to package maintenance after the review as per the [pyOpenSci Policies Guidelines][Commitment].
+
 ## Description
 
 - Include a brief paragraph describing what your package does:
 
+
 ## Scope 
-- Please indicate which [category or categories][PackageCategories] this package falls under:
+- Please indicate which category or categories. 
+Check out our [package scope page][PackageCategories] to learn more about our 
+scope. (If you are unsure of which category you fit, we suggest you make a pre-submission inquiry):
+
 	- [ ] Data retrieval
 	- [ ] Data extraction
-	- [ ] Data munging
+	- [ ] Data processing/munging
 	- [ ] Data deposition
-	- [ ] Reproducibility
+	- [ ] Data validation and testing
+	- [ ] Data visualization **
+	- [ ] Workflow automation
+	- [ ] Citation management and bibliometrics
+	- [ ] Scientific software wrappers
+	- [ ] Database interoperability
+
+Domain Specific & Community Partnerships 
+
 	- [ ] Geospatial
 	- [ ] Education
-	- [ ] Data visualization*
+	- [ ] Pangeo
+	
 
-> *Please fill out a pre-submission inquiry before submitting a data visualization package. For more info, see [notes on categories][NotesOnCategories] of our guidebook.*
+## Community Partnerships
+If your package is associated with an 
+existing community please check below:
+- [ ] [Pangeo][pangeoWebsite]
+	- [ ] My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
 
+> ** Please fill out a pre-submission inquiry before submitting a data visualization package.*
 
 - **For all submissions**, explain how the and why the package falls under the categories you indicated above. In your explanation, please address the following points (briefly, 1-2 sentences for each):  
 
@@ -50,17 +73,17 @@ Date accepted (month/day/year): TBD
 
 ## Technical checks
 
-For details about the pyOpenSci packaging requirements, see our [packaging guide][PackagingGuide]. Confirm each of the following by checking the box.  This package:
+For details about the pyOpenSci packaging requirements, see our [packaging guide][PackagingGuide]. Confirm each of the following by checking the box. This package:
 
 - [ ] does not violate the Terms of Service of any service it interacts with. 
-- [ ] has an [OSI approved license][OsiApprovedLicense].
+- [ ] uses an [OSI approved license][OsiApprovedLicense].
 - [ ] contains a README with instructions for installing the development version. 
 - [ ] includes documentation with examples for all functions.
-- [ ] contains a vignette with examples of its essential functions and uses.
+- [ ] contains a tutorial with examples of its essential functions and uses.
 - [ ] has a test suite.
-- [ ] has continuous integration, such as Travis CI, AppVeyor, CircleCI, and/or others.
+- [ ] has continuous integration setup, such as GitHub Actions CircleCI, and/or others.
 
-## Publication options
+## Publication Options
 
 - [ ] Do you wish to automatically submit to the [Journal of Open Source Software][JournalOfOpenSourceSoftware]? If so:
 
@@ -81,9 +104,10 @@ This option will allow reviewers to open smaller issues that can then be linked 
 
 - [x] Yes I am OK with reviewers submitting requested changes as issues to my repo. Reviewers will then link to the issues in their submitted review.
 
-## Code of conduct
+Confirm each of the following by checking the box.
 
-- [ ] I agree to abide by [pyOpenSci's Code of Conduct][PyOpenSciCodeOfConduct] during the review process and in maintaining my package should it be accepted.
+- [ ] I have read the [author guide](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html). 
+- [ ] I expect to maintain this package for at least 2 years and can help find a replacement for the maintainer (team) if needed.
 
 ## Please fill out our survey
 - [ ] [Last but not least please fill out our pre-review survey](https://forms.gle/F9mou7S3jhe8DMJ16). This helps us track
@@ -98,12 +122,9 @@ The [editor template can be found here][Editor Template].
 
 The [review template can be found here][Review Template].
 
-[PackagingGuide]: https://www.pyopensci.org/contributing-guide/authoring/index.html#packaging-guide
+[PackagingGuide]: https://www.pyopensci.org/python-package-guide/
 
-[PackageCategories]: https://www.pyopensci.org/contributing-guide/open-source-software-peer-review/aims-and-scope.html?highlight=data#package-categories
-
-[NotesOnCategories]: https://www.pyopensci.org/contributing-guide/open-source-software-peer-review/aims-and-scope.html?highlight=data#notes-on-categories
-
+[PackageCategories]: https://www.pyopensci.org/software-peer-review/about/package-scope.html
 
 [JournalOfOpenSourceSoftware]: http://joss.theoj.org/
 
@@ -111,12 +132,15 @@ The [review template can be found here][Review Template].
 
 [JossPaperRequirements]: https://joss.readthedocs.io/en/latest/submitting.html#what-should-my-paper-contain
 
-[PyOpenSciCodeOfConduct]: https://www.pyopensci.org/contributing-guide/open-source-software-peer-review/code-of-conduct.html?highlight=code%20conduct
+[PyOpenSciCodeOfConduct]: https://www.pyopensci.org/governance/CODE_OF_CONDUCT
 
 [OsiApprovedLicense]: https://opensource.org/licenses
 
-[Editor Template]: https://www.pyopensci.org/peer-review-guide/software-peer-review-guide/editors-guide.html#respond-to-the-submitter-in-the-github-issue
+[Templates]: https://www.pyopensci.org/software-peer-review/appendices/templates.html
 
-[Review Template]: https://www.pyopensci.org/peer-review-guide/software-peer-review-guide/reviewer-guide.html#peer-review-template
+[Comments]: https://pyopensci.discourse.group/
 
-[Comments]: https://github.com/pyOpenSci/governance/issues/8
+[PangeoCollaboration]: https://www.pyopensci.org/software-peer-review/partners/pangeo
+
+[pangeoWebsite]: https://www.pangeo.io
+[Commitment]: https://www.pyopensci.org/software-peer-review/our-process/policies.html#after-acceptance-package-ownership-and-maintenance
