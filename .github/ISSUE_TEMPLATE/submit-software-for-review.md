@@ -117,7 +117,7 @@ Confirm each of the following by checking the box.
 submission and improve our peer review process. We will also ask our reviewers 
 and editors to fill this out.
 
-**P.S.** *Have feedback/comments about our review process? Leave a comment [here][Comments]
+**P.S.** Have feedback/comments about our review process? Leave a comment [here][Comments]
 
 ## Editor and Review Templates
 
