@@ -46,7 +46,7 @@ scope. (If you are unsure of which category you fit, we suggest you make a pre-s
 	- [ ] Data processing/munging
 	- [ ] Data deposition
 	- [ ] Data validation and testing
-	- [ ] Data visualization **
+	- [ ] Data visualization
 	- [ ] Workflow automation
 	- [ ] Citation management and bibliometrics
 	- [ ] Scientific software wrappers
