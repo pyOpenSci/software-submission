@@ -25,7 +25,7 @@ Date accepted (month/day/year): TBD
 ## Code of Conduct & Commitment to Maintain Package
 
 - [ ] I agree to abide by [pyOpenSci's Code of Conduct][PyOpenSciCodeOfConduct] during the review process and in maintaining my package after should it be accepted.
-- [ ]I have read and will commit to package maintenance after the review as per the [pyOpenSci Policies Guidelines][Commitment].
+- [ ] I have read and will commit to package maintenance after the review as per the [pyOpenSci Policies Guidelines][Commitment].
 
 ## Description
 
