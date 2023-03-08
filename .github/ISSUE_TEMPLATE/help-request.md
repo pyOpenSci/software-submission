@@ -54,7 +54,7 @@ Repository Link (if existing):
 - Any other questions or issues we should be aware of?:
 
 
-**P.S.** *Have feedback/comments about our review process? Leave a comment [here][Comments]
+**P.S.** Have feedback/comments about our review process? Leave a comment [here][Comments]
 
 
 [PackagingGuide]: https://www.pyopensci.org/python-package-guide/

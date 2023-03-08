@@ -68,7 +68,7 @@ Domain Specific & Community Partnerships
 - Any other questions or issues we should be aware of:
 
 
-**P.S.** *Have feedback/comments about our review process? Leave a comment [here][Comments]
+**P.S.** Have feedback/comments about our review process? Leave a comment [here][Comments]
 
 
 [PackageCategories]: https://www.pyopensci.org/software-peer-review/about/package-scope.html
