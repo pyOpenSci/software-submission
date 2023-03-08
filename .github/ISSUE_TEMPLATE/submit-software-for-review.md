@@ -32,7 +32,8 @@ Date accepted (month/day/year): TBD
 - Include a brief paragraph describing what your package does:
 
 
-## Scope 
+## Scope
+
 - Please indicate which category or categories. 
 Check out our [package scope page][PackageCategories] to learn more about our 
 scope. (If you are unsure of which category you fit, we suggest you make a pre-submission inquiry):
@@ -58,6 +59,7 @@ Domain Specific & Community Partnerships
 ## Community Partnerships
 If your package is associated with an 
 existing community please check below:
+
 - [ ] [Pangeo][pangeoWebsite]
 	- [ ] My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
 
@@ -110,6 +112,7 @@ Confirm each of the following by checking the box.
 - [ ] I expect to maintain this package for at least 2 years and can help find a replacement for the maintainer (team) if needed.
 
 ## Please fill out our survey
+
 - [ ] [Last but not least please fill out our pre-review survey](https://forms.gle/F9mou7S3jhe8DMJ16). This helps us track
 submission and improve our peer review process. We will also ask our reviewers 
 and editors to fill this out.

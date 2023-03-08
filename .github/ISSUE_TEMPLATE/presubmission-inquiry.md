@@ -35,7 +35,8 @@ existing community please check below:
 
 - Please indicate which [category or categories][PackageCategories] this package falls under:
 
-## Scope 
+## Scope
+
 - Please indicate which category or categories. 
 Check out our [package scope page][PackageCategories] to learn more about our 
 scope. (If you are unsure of which category you fit, we suggest you make a pre-submission inquiry):
