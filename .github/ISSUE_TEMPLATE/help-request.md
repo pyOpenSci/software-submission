@@ -20,7 +20,7 @@ Repository Link (if existing):
 
 ---
 
--   Paste the full DESCRIPTION file inside a code block below:
+- Paste the full DESCRIPTION file inside a code block below:
 
 ```
 
