@@ -43,7 +43,7 @@ scope. (If you are unsure of which category you fit, we suggest you make a pre-s
 	- [ ] Data processing/munging
 	- [ ] Data deposition
 	- [ ] Data validation and testing
-	- [ ] Data visualization [^1]
+	- [ ] Data visualization[^1]
 	- [ ] Workflow automation
 	- [ ] Citation management and bibliometrics
 	- [ ] Scientific software wrappers
@@ -63,7 +63,7 @@ existing community please check below:
 - [ ] [Pangeo][pangeoWebsite]
 	- [ ] My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
 
-> [^1] Please fill out a pre-submission inquiry before submitting a data visualization package.
+> [^1]: Please fill out a pre-submission inquiry before submitting a data visualization package.
 
 - **For all submissions**, explain how the and why the package falls under the categories you indicated above. In your explanation, please address the following points (briefly, 1-2 sentences for each):  
 
