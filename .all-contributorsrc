@@ -26,6 +26,15 @@
         "design",
         "review"
       ]
+    },
+    {
+      "login": "badge",
+      "name": "Matthew Badger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1969339?v=4",
+      "profile": "https://github.com/badge",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
