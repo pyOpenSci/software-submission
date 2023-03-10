@@ -26,6 +26,15 @@
         "design",
         "review"
       ]
+    },
+    {
+      "login": "package",
+      "name": "package",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2172180?v=4",
+      "profile": "https://github.com/Package",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
