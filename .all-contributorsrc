@@ -26,6 +26,17 @@
         "design",
         "review"
       ]
+    },
+    {
+      "login": "robaina",
+      "name": "Semidán Robaina, Ph.D.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21340147?v=4",
+      "profile": "https://www.linkedin.com/in/semidan-robaina/",
+      "contributions": [
+        "example",
+        "code",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
