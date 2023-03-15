@@ -11,4 +11,3 @@ jobs:
         with:
           config: .markdownlint.json
           files: '.github'
-          ignore: changelog-entries
