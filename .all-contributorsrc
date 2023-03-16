@@ -37,6 +37,16 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "BenjaminRodenberg",
+      "name": "Benjamin Rodenberg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5740604?v=4",
+      "profile": "https://www.cs.cit.tum.de/sccs/personen/benjamin-rodenberg/",
+      "contributions": [
+        "code",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
