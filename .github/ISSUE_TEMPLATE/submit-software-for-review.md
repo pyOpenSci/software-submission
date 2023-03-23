@@ -139,7 +139,9 @@ The [review template can be found here][Review Template].
 
 [OsiApprovedLicense]: https://opensource.org/licenses
 
-[Templates]: https://www.pyopensci.org/software-peer-review/appendices/templates.html
+[Editor Template]: https://www.pyopensci.org/software-peer-review/appendices/templates.html#editor-s-template
+
+[Review Template]: https://www.pyopensci.org/software-peer-review/appendices/templates.html#peer-review-template
 
 [Comments]: https://pyopensci.discourse.group/
 
