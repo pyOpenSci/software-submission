@@ -1,6 +1,6 @@
 # Welcome to pyOpenSci Software Peer Review 👋 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Hi there! This repository is where pyOpenSci 
@@ -80,6 +80,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/aulemahal"><img src="https://avatars.githubusercontent.com/u/20629530?v=4?s=100" width="100px;" alt="Pascal Bourgault"/><br /><sub><b>Pascal Bourgault</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/commits?author=aulemahal" title="Code">💻</a></td>
     </tr>
     <tr>
+      <td align="center" valign="top" width="14.28%"><a href="http://aguspesce.github.io"><img src="https://avatars.githubusercontent.com/u/13738018?v=4?s=100" width="100px;" alt="Agustina"/><br /><sub><b>Agustina</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/pulls?q=is%3Apr+reviewed-by%3Aaguspesce" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/jmunroe"><img src="https://avatars.githubusercontent.com/u/6181563?v=4?s=100" width="100px;" alt="James Munroe"/><br /><sub><b>James Munroe</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/pulls?q=is%3Apr+reviewed-by%3Ajmunroe" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
