@@ -1,6 +1,6 @@
 # Welcome to pyOpenSci Software Peer Review 👋 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Hi there! This repository is where pyOpenSci 
@@ -76,6 +76,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/in/semidan-robaina/"><img src="https://avatars.githubusercontent.com/u/21340147?v=4?s=100" width="100px;" alt="Semidán Robaina, Ph.D."/><br /><sub><b>Semidán Robaina, Ph.D.</b></sub></a><br /><a href="#example-robaina" title="Examples">💡</a> <a href="https://github.com/pyOpenSci/software-submission/commits?author=robaina" title="Code">💻</a> <a href="https://github.com/pyOpenSci/software-submission/pulls?q=is%3Apr+reviewed-by%3Arobaina" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://www.cs.cit.tum.de/sccs/personen/benjamin-rodenberg/"><img src="https://avatars.githubusercontent.com/u/5740604?v=4?s=100" width="100px;" alt="Benjamin Rodenberg"/><br /><sub><b>Benjamin Rodenberg</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/commits?author=BenjaminRodenberg" title="Code">💻</a> <a href="https://github.com/pyOpenSci/software-submission/pulls?q=is%3Apr+reviewed-by%3ABenjaminRodenberg" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Zeitsperre"><img src="https://avatars.githubusercontent.com/u/10819524?v=4?s=100" width="100px;" alt="Trevor James Smith"/><br /><sub><b>Trevor James Smith</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/commits?author=Zeitsperre" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/tlogan2000"><img src="https://avatars.githubusercontent.com/u/22454970?v=4?s=100" width="100px;" alt="Travis Logan"/><br /><sub><b>Travis Logan</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/commits?author=tlogan2000" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
