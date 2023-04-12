@@ -74,6 +74,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "aguspesce",
+      "name": "Agustina",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13738018?v=4",
+      "profile": "http://aguspesce.github.io",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
