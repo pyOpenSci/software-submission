@@ -78,7 +78,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Zeitsperre"><img src="https://avatars.githubusercontent.com/u/10819524?v=4?s=100" width="100px;" alt="Trevor James Smith"/><br /><sub><b>Trevor James Smith</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/commits?author=Zeitsperre" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/tlogan2000"><img src="https://avatars.githubusercontent.com/u/22454970?v=4?s=100" width="100px;" alt="Travis Logan"/><br /><sub><b>Travis Logan</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/commits?author=tlogan2000" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/aulemahal"><img src="https://avatars.githubusercontent.com/u/20629530?v=4?s=100" width="100px;" alt="Pascal Bourgault"/><br /><sub><b>Pascal Bourgault</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/commits?author=aulemahal" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="http://aguspesce.github.io"><img src="https://avatars.githubusercontent.com/u/13738018?v=4?s=100" width="100px;" alt="Agustina"/><br /><sub><b>Agustina</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/pulls?q=is%3Apr+reviewed-by%3Aaguspesce" title="Reviewed Pull Requests">👀</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/jmunroe"><img src="https://avatars.githubusercontent.com/u/6181563?v=4?s=100" width="100px;" alt="James Munroe"/><br /><sub><b>James Munroe</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/pulls?q=is%3Apr+reviewed-by%3Ajmunroe" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
 </table>
