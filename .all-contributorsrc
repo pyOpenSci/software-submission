@@ -83,6 +83,15 @@
       "contributions": [
         "review"
       ]
+    },
+    {
+      "login": "jmunroe",
+      "name": "James Munroe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6181563?v=4",
+      "profile": "https://github.com/jmunroe",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
