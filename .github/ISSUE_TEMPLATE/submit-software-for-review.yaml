@@ -1,0 +1,39 @@
+name: Submit software for Review
+description:  Use to submit your Python package for pyOpenSci peer review
+title: 'Feature: '
+labels: ['editor-checks', 'New Submission!']
+assignees:
+  - placeholder
+body:
+  - type: input
+    id: "Submitting_Author"
+    attributes:
+      label: Submitting Author
+      description: Author Name
+      placeholder: github_handle
+    validations:
+      required: true
+  - type: textarea
+    id: "Current_Maintainers"
+    attributes:
+      label: Current Maintainers
+      description: list all current maintainers
+      placeholder: github_handle1, github_handle2
+    validations:
+      required: true
+  - type: input
+    id: "Package_Name"
+    attributes:
+      label: Package Name
+      description: Package name here
+      placeholder: Package name here
+    validations:
+      required: true
+  - type: input
+    id: "One_line_desc"
+    attributes:
+      label: One-Line Description of Package
+      description: One-Line Description of Package
+      placeholder: description here
+    validations:
+      required: true
