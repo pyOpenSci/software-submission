@@ -92,6 +92,16 @@
       "contributions": [
         "review"
       ]
+    },
+    {
+      "login": "mccrayjr",
+      "name": "John McCray",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69483966?v=4",
+      "profile": "https://github.com/mccrayjr",
+      "contributions": [
+        "code",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
