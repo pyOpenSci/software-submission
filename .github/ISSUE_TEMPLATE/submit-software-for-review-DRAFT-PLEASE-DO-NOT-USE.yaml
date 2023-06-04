@@ -1,9 +1,6 @@
 name:  Submit Software for Review (Draft)
 description:  Use to submit your Python package for pyOpenSci peer review
-title: 'Feature: '
 labels: ['editor-checks', 'New Submission!']
-assignees: 
-  - placeholder
 body:
   - type: input
     id: "submitting_author"
@@ -41,7 +38,7 @@ body:
     id: "one_line_desc"
     attributes:
       label: One-Line Description of Package
-      description: One-Line Description of Package
+      description: One-line description of package
       placeholder: Description here
     validations:
       required: true
@@ -56,7 +53,7 @@ body:
   - type: input
     id: "version_submitted"
     attributes:
-      label: Version submitted
+      label: Version Submitted
       description: Version submitted
       placeholder: Version here
     validations:
@@ -69,7 +66,11 @@ body:
       options:
         - label: I agree to abide by [pyOpenSci's Code of Conduct](https://www.pyopensci.org/governance/CODE_OF_CONDUCT) during the review process and in maintaining my package after should it be accepted.
           required: true
-        - label: I have read and will commit to package maintenance after the review as per the [pyOpenSci Policies Guidelines](https://www.pyopensci.org/software-peer-review/our-process/policies.html#after-acceptance-package-ownership-and-maintenance).
+        - label: I have read and will commit to package maintenance after the review as per the [pyOpenSci Policies & Guidelines](https://www.pyopensci.org/software-peer-review/our-process/policies.html#after-acceptance-package-ownership-and-maintenance).
+          required: true
+        - label: I expect to maintain this package for at least 2 years and can help find a replacement for the maintainer (team) if needed.
+          required: true
+        - label: I have read the [author guide](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html). 
           required: true
   - type: textarea
     id: "description"
@@ -83,7 +84,7 @@ body:
     id: "category"
     attributes:
       label: Scope
-      description: "Please select one category or categories. Check out our [package scope page](https://www.pyopensci.org/software-peer-review/about/package-scope.html) to learn more about our scope. (If you are unsure of which category you fit, we suggest you make a pre-submission inquiry):"
+      description: "Please select one or more categories. Check out our [package scope page](https://www.pyopensci.org/software-peer-review/about/package-scope.html) to learn more about our scope. (If you are unsure of which category you fit, we suggest you make a pre-submission inquiry):"
       options:
         - label: Data retrieval
           required: false
@@ -114,17 +115,7 @@ body:
           required: false
         - label: Education
           required: false
-        - label: Pangeo
-          required: false
-  - type: checkboxes
-    id: "community_partnerships"
-    attributes:
-      label: Community partnerships
-      description: "If your package is associated with an existing community please check below:"
-      options:
-        - label: "[Pangeo](https://www.pangeo.io)"
-          required: false
-        - label: My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook](https://www.pyopensci.org/software-peer-review/partners/pangeo)
+        - label: "[Pangeo](https://www.pangeo.io) (My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook](https://www.pyopensci.org/software-peer-review/partners/pangeo))"
           required: false
   - type: textarea
     id: "category_explanation"
@@ -141,7 +132,7 @@ body:
   - type: checkboxes
     id: "technical_checks"
     attributes:
-      label: Technical checks
+      label: Technical Checks
       description: "For details about the pyOpenSci packaging requirements, see our [packaging guide](https://www.pyopensci.org/python-package-guide/). Confirm each of the following by checking the box. This package: "
       options:
         - label: does not violate the Terms of Service of any service it interacts with. 
@@ -156,7 +147,7 @@ body:
           required: false
         - label: has a test suite.
           required: false
-        - label: has continuous integration setup, such as GitHub Actions CircleCI, and/or others.
+        - label: has continuous integration setup, such as GitHub Actions, CircleCI, and/or others.
           required: false
   - type: dropdown
     id: "publication_options"
@@ -166,48 +157,54 @@ body:
       options:
         - I want to automatically submit to JOSS.
         - I don't want to automatically submit to JOSS.
+    validations:
+      required: true
   - type: checkboxes
     id: "publication_options2"
     attributes:
       label: JOSS Checks
       description: "If you want to automatically submit your package to JOSS, please confirm each of the following by checking the box:" 
       options:
-        - label: "The package has an **obvious research application** according to JOSS's definition in their [submission requirements](https://joss.readthedocs.io/en/latest/submitting.html#submission-requirements). Be aware that completing the pyOpenSci review process **does not** guarantee acceptance to JOSS. Be sure to read their submission requirements (linked above) if you are interested in submitting to JOSS."
+        - label: "The package has an **obvious research application** according to JOSS's definition in their [submission requirements](https://joss.readthedocs.io/en/latest/submitting.html#submission-requirements). Be aware that completing the pyOpenSci review process **does not** guarantee acceptance to JOSS. Be sure to read the submission requirements linked above if you are interested in submitting to JOSS."
           required: false
         - label: |
-                 "The package is not a 'minor utility' as defined by JOSS's [submission requirements](https://joss.readthedocs.io/en/latest/submitting.html#submission-requirements): 
-                 'Minor ‘utility’ packages, including ‘thin’ API clients, are not acceptable.' pyOpenSci welcomes these packages under 'Data Retrieval', but JOSS has slightly different criteria."
+                 The package is not a 'minor utility' as defined by JOSS's [submission requirements](https://joss.readthedocs.io/en/latest/submitting.html#submission-requirements): 
+                 'Minor ‘utility’ packages, including ‘thin’ API clients, are not acceptable.' pyOpenSci welcomes these packages under 'Data Retrieval', but JOSS has slightly different criteria.
           required: false
         - label: "The package contains a `paper.md` matching [JOSS's requirements](https://joss.readthedocs.io/en/latest/submitting.html#what-should-my-paper-contain) with a high-level description in the package root or in `inst/`."
           required: false
-        - label: "The package is deposited in a long-term repository with the DOI:"  
+        - label: "The package is deposited in a long-term repository with the DOI listed below."  
           required: false
+  - type: input
+    id: "package_doi"
+    attributes:
+      label: Package DOI
+      description: "Please write the package DOI." 
+      placeholder: DOI here
+    validations:
+      required: false
   - type: checkboxes
     id: "reviewer_options"
     attributes:
       label: Reviewer Options
-      description: "Are you OK with Reviewers Submitting Issues and/or pull requests to your Repo Directly? This option will allow reviewers to open smaller issues that can then be linked to PR's rather than submitting a more dense text based review. It will also allow you to demonstrate addressing the issue via PR links."
+      description: "Are you OK with reviewers submitting issues and/or pull requests to your repo directly? This option will allow reviewers to open smaller issues that can then be linked to PR's rather than submitting a more dense text based review. It will also allow you to demonstrate addressing the issue via PR links."
       options:
-        - label: Yes I am OK with reviewers submitting requested changes as issues to my repo. Reviewers will then link to the issues in their submitted review.
-          required: false
-        - label: I have read the [author guide](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html). 
-          required: false
-        - label: I expect to maintain this package for at least 2 years and can help find a replacement for the maintainer (team) if needed.
+        - label: Yes, I am OK with reviewers submitting requested changes as issues to my repo. Reviewers will then link to the issues in their submitted review.
           required: false
   - type: checkboxes
     id: "survey"
     attributes:
       label: Survey
-      description: "[Last but not least please fill out our pre-review survey](https://forms.gle/F9mou7S3jhe8DMJ16). This helps us track submission and improve our peer review process. We will also ask our reviewers and editors to fill this out."
+      description: "Last but not least please fill out our [pre-review survey](https://forms.gle/F9mou7S3jhe8DMJ16). This helps us track submission and improve our peer review process. We will also ask our reviewers and editors to fill this out."
       options:
-        - label: I have filled in the survey
-          required: false
+        - label: I have filled out the survey.
+          required: true
   - type: checkboxes
     id: "feedback"
     attributes:
       label: Feedback
-      description: "Have feedback/comments about our review process? Leave a comment [here](https://pyopensci.discourse.group/)"
+      description: "Have feedback/comments about our review process? Leave a comment the [pyOpenSci Discourse](https://pyopensci.discourse.group/c/review-process/7)."
       options:
-        - label: I have submitted comments in the survey
+        - label: I have submitted comments in the Discourse.
           required: false
  
