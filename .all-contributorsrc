@@ -102,6 +102,16 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "jfy133",
+      "name": "James A. Fellows Yates",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17950287?v=4",
+      "profile": "http://jafy.eu",
+      "contributions": [
+        "code",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -109,5 +119,6 @@
   "repoType": "github",
   "repoHost": "https://github.com",
   "projectName": "software-submission",
-  "projectOwner": "pyOpenSci"
+  "projectOwner": "pyOpenSci",
+  "commitType": "docs"
 }
