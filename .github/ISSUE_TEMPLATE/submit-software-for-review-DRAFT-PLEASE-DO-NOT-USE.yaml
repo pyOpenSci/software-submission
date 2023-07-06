@@ -1,31 +1,103 @@
-name:  Submit Software for Review (Draft)
-description:  Use to submit your Python package for pyOpenSci peer review
+name: Submit Your Package to pyOpenSci for Review
+description: "Use this form to submit your Python package to the pyOpenSci peer review process. If you run into issues, ask on our Discourse forum."
 labels: ['editor-checks', 'New Submission!']
 body:
   - type: input
     id: "submitting_author"
     attributes:
       label: Submitting Author
-      description: Author name
+      description: "Author name (e.g. Janet Doe)"
       placeholder: Author name here
+    validations:
+      required: true
+  - type: input
+    id: "submitting_author_handle"
+    attributes:
+      label: Submitting Author Handle
+      description: Author GitHub handle
+      placeholder: GitHub handle here
     validations:
       required: true
   - type: input
     id: "maintainer1"
     attributes:
       label: Maintainer 1
+      description: First mantainer name
+      placeholder: Maintainer name here
+    validations:
+      required: false
+  - type: input
+    id: "maintainer1_handle"
+    attributes:
+      label: Maintainer 1 Handle
       description: GitHub handle for the first mantainer
       placeholder: GitHub handle here
     validations:
-      required: true
+      required: false
   - type: input
     id: "maintainer2"
     attributes:
       label: Maintainer 2
+      description: Second mantainer name
+      placeholder: Maintainer name here
+    validations:
+      required: false
+  - type: input
+    id: "maintainer2_handle"
+    attributes:
+      label: Maintainer 2 Handle
       description: GitHub handle for the second mantainer
       placeholder: GitHub handle here
     validations:
-      required: true
+      required: false
+  - type: input
+    id: "maintainer3"
+    attributes:
+      label: Maintainer 3
+      description: Third mantainer name
+      placeholder: Maintainer name here
+    validations:
+      required: false
+  - type: input
+    id: "maintainer3_handle"
+    attributes:
+      label: Maintainer 3 Handle
+      description: GitHub handle for the third mantainer
+      placeholder: GitHub handle here
+    validations:
+      required: false
+  - type: input
+    id: "maintainer4"
+    attributes:
+      label: Maintainer 4
+      description: Fourth mantainer name
+      placeholder: Maintainer name here
+    validations:
+      required: false
+  - type: input
+    id: "maintainer4_handle"
+    attributes: 
+      label: Maintainer 4 Handle
+      description: GitHub handle for the fourth mantainer
+      placeholder: GitHub handle here
+    validations:
+      required: false
+  - type: input
+    id: "maintainer5"
+    attributes:
+      label: Maintainer 5
+      description: Fifth mantainer name
+      placeholder: Maintainer name here
+    validations:
+      required: false
+  - type: input
+    id: "maintainer5_handle"
+    attributes:
+      label: Maintainer 5 Handle
+      description: GitHub handle for the fifth mantainer
+      placeholder: GitHub handle here
+    validations:
+      required: false
   - type: input
     id: "package_name"
     attributes:
@@ -38,7 +110,7 @@ body:
     id: "one_line_desc"
     attributes:
       label: One-Line Description of Package
-      description: One-line description of package
+      description: Please try to avoid using overly technical terms if possible for this one line entry.
       placeholder: Description here
     validations:
       required: true
@@ -46,18 +118,26 @@ body:
     id: "repository_link"
     attributes:
       label: Repository Link
-      description: Link to the package repository
-      placeholder: Link here
+      description: Please provide a link to your package's GitHub/GitLab repository.
+      placeholder: Repository link here
     validations:
       required: true
   - type: input
     id: "version_submitted"
     attributes:
       label: Version Submitted
-      description: Version submitted
+      description: Version of the package submitted to pyOpenSci
       placeholder: Version here
     validations:
       required: true
+  - type: input
+    id: "version_link"
+    attributes:
+      label: Link to Version
+      description: Please provide a link to a tag/release or commit for the above version.
+      placeholder: Version link here
+    validations:
+      required: true   
   - type: checkboxes
     id: terms
     attributes:
@@ -68,23 +148,23 @@ body:
           required: true
         - label: I have read and will commit to package maintenance after the review as per the [pyOpenSci Policies & Guidelines](https://www.pyopensci.org/software-peer-review/our-process/policies.html#after-acceptance-package-ownership-and-maintenance).
           required: true
-        - label: I expect to maintain this package for at least 2 years and can help find a replacement for the maintainer (team) if needed.
+        - label: "I expect to maintain this package for at least 2 years.  In case I need to step down as a maintainer, I'm open to support finding a replacement maintainer (team) if needed / if it makes sense for my package."
           required: true
-        - label: I have read the [author guide](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html). 
+        - label: I have read the [pyOS peer review author guide](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html). 
           required: true
   - type: textarea
     id: "description"
     attributes:
       label: Description
-      description: Include a brief paragraph describing what your package does
-      placeholder: Description here
+      description: Please provide a brief and easy-to-understand paragraph describing what your package does. Please try to avoid jargon, or (if used) define jargon to make it clear to our cross-domain editorial team what your package does. 
+      placeholder: Easy-to-understand package description here.
     validations:
       required: true
   - type: checkboxes
     id: "category"
     attributes:
       label: Scope
-      description: "Please select one or more categories. Check out our [package scope page](https://www.pyopensci.org/software-peer-review/about/package-scope.html) to learn more about our scope. (If you are unsure of which category you fit, we suggest you make a pre-submission inquiry):"
+      description: "Please select one or more categories. Check out our [package scope page](https://www.pyopensci.org/software-peer-review/about/package-scope.html) to learn more about our scope. (If you are unsure of which category you fit into, we suggest that you make a pre-submission inquiry):"
       options:
         - label: Data retrieval
           required: false
@@ -96,7 +176,7 @@ body:
           required: false
         - label: Data validation and testing
           required: false
-        - label: Data visualization (Please fill out a pre-submission inquiry before submitting a data visualization package.)
+        - label: Data visualization (please fill out a pre-submission inquiry before submitting a data visualization package)
           required: false
         - label: Workflow automation
           required: false
@@ -106,54 +186,91 @@ body:
           required: false
         - label: Database interoperability
   - type: checkboxes
-    id: "partnerships"
+    id: "categories"
     attributes:
-      label: Domain Specific & Community Partnerships 
-      description: "Please indicate if your package is part of the following domain specific or community partnerships:" 
+      label: Domain Specific Categories
+      description: "Please indicate if your package fits into the categories below (this is optional - it is okay if it doesn't. We use this information to help our package users find packages with functionality that they need):"
       options:
         - label: Geospatial
           required: false
         - label: Education
           required: false
-        - label: "[Pangeo](https://www.pangeo.io) (My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook](https://www.pyopensci.org/software-peer-review/partners/pangeo))"
+  - type: checkboxes
+    id: "partnerships"
+    attributes:
+      label: Community Partnerships 
+      description: |
+        pyOpenSci [partners with communities](https://www.pyopensci.org/software-peer-review/partners/scientific-communities.html#pyopensci-software-peer-review-partnerships) that are maintaining lists of affiliated packages. You do not need to be a part of a community or to fall into a specific domain to apply for peer review. However, if you are a part of the community we will vet your tool against both our pyOpenSci standards and the community specific standards.
+        
+        I would like to be affiliated with a community listed below. (check the box if you believe meet the community affiliation requirements):
+      options:
+        - label: "I wish to be considered to be [Pangeo](https://www.pangeo.io) affiliated. I have [read the pangeo requirements](https://www.pyopensci.org/software-peer-review/partners/pangeo.html#pangeo-specific-software-peer-review-guidelines) and believe my package follows them."
           required: false
   - type: textarea
-    id: "category_explanation"
+    id: "target_audience"
     attributes:
-      label: Category explanation
-      description: |
-        For all submissions, explain how the and why the package falls under the categories you indicated above. In your explanation, please address the following points (briefly, 1-2 sentences for each)  
-        - Who is the target audience and what are scientific applications of this package?  
-        - Are there other Python packages that accomplish the same thing? If so, how does yours differ?
-        - If you made a pre-submission enquiry, please paste the link to the corresponding issue, forum post, or other discussion, or `@tag` the editor you contacted:
+      label: Target Audience
+      description: Please describe the target audience of this package. 
       placeholder: Explain here
+    validations:
+        required: true
+  - type: textarea
+    id: "applications"
+    attributes:
+      label: Scientific Applications
+      description: Please describe the scientific applications of this package.
+      placeholder: Explain here
+    validations:
+        required: true
+  - type: checkboxes
+    id: "other_packages"
+    attributes:
+      label: "Are there any other Python packages that accomplish the same thing?"
+      options:
+        - label: "Yes"
+          required: false
+        - label: "No"
+          required: false
+  - type: textarea
+    id: "other_packages_explanation"
+    attributes:
+      label: "If you answered yes in the previous question, please explain which packages and why."
+      placeholder: Explain here
+    validations:
+        required: false
+  - type: textarea
+    id: "pre-submission"
+    attributes:
+      label: Pre-Submission Link
+      description: If you made a pre-submission, please paste the link here. 
+      placeholder: Link here
     validations:
         required: false
   - type: checkboxes
     id: "technical_checks"
     attributes:
-      label: Technical Checks
+      label: Package Technical Checks
       description: "For details about the pyOpenSci packaging requirements, see our [packaging guide](https://www.pyopensci.org/python-package-guide/). Confirm each of the following by checking the box. This package: "
       options:
         - label: does not violate the Terms of Service of any service it interacts with. 
           required: false
         - label: "uses an [OSI approved license](https://opensource.org/licenses)."
           required: false
-        - label: contains a README with instructions for installing the development version. 
+        - label: contains a README file with instructions for creating an environment for and installing the development version of the package.
           required: false
-        - label: includes documentation with examples for all functions.
+        - label: "includes documentation with examples for all functions and methods (examples in your docstring are optional but encouraged)."
           required: false
-        - label: contains a tutorial with examples of its essential functions and uses.
+        - label: "contains a getting-started tutorial with examples of using the package's essential functions and applications."
           required: false
         - label: has a test suite.
           required: false
-        - label: has continuous integration setup, such as GitHub Actions, CircleCI, and/or others.
+        - label: has continuous integration setup to run tests, such as GitHub Actions, CircleCI, and/or others.
           required: false
   - type: dropdown
     id: "publication_options"
     attributes:
       label: Publication Options
-      description: "Do you wish to automatically submit to the [Journal of Open Source Software](http://joss.theoj.org/)?"
+      description: "JOSS has a slightly more refined scope than that of pyOpenSci. If you want to submit your package to JOSS, please use the links below to determine whether your package is in JOSS' scope. Check each box that applies. NOTE: JOSS will make the final determination of whether the package is in scope for their ecosystem. These checks are here to help prepare you for their process and guidelines." 
       options:
         - I want to automatically submit to JOSS.
         - I don't want to automatically submit to JOSS.
@@ -179,7 +296,7 @@ body:
     id: "package_doi"
     attributes:
       label: Package DOI
-      description: "Please write the package DOI." 
+      description: "Please write the package DOI. (At the end of our reviews we ask that you create a final tagged release associated with the review that is linked to a zenodo archive (or some other archive of your choice). An editor will ask you to provide that link when the review is complete. The link will be added here.)" 
       placeholder: DOI here
     validations:
       required: false
@@ -195,16 +312,16 @@ body:
     id: "survey"
     attributes:
       label: Survey
-      description: "Last but not least please fill out our [pre-review survey](https://forms.gle/F9mou7S3jhe8DMJ16). This helps us track submission and improve our peer review process. We will also ask our reviewers and editors to fill this out."
+      description: "Last but not least, please fill out our [pre-review survey](https://forms.gle/F9mou7S3jhe8DMJ16). This helps us track submission and improve our peer review process. We will also ask our reviewers and editors to fill this out."
       options:
         - label: I have filled out the survey.
           required: true
-  - type: checkboxes
+  - type: textarea
     id: "feedback"
     attributes:
       label: Feedback
-      description: "Have feedback/comments about our review process? Leave a comment the [pyOpenSci Discourse](https://pyopensci.discourse.group/c/review-process/7)."
-      options:
-        - label: I have submitted comments in the Discourse.
-          required: false
+      description: "Have feedback/comments about our review process? Leave a comment below or on the [pyOpenSci Discourse](https://pyopensci.discourse.group/c/review-process/7)."
+      placeholder: Comments here
+    validations:
+        required: false
  
