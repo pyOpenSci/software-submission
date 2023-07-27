@@ -18,7 +18,7 @@ Over time we also hope to address the issue of multiple packages that have overl
 ## How to submit a package for review 
 
 To submit your package for peer review, you can open a GitHub issue:
-1. [Click here to start a resubmission inquiry - if you are unsure of whether your package is in scope for us you may want to click here to open an issue.](https://github.com/pyOpenSci/software-review/issues/new?assignees=&labels=0%2Fpresubmission&template=presubmission-inquiry.md&title=) 
+1. [Click here to start a presubmission inquiry - if you are unsure of whether your package is in scope for us you may want to click here to open an issue.](https://github.com/pyOpenSci/software-review/issues/new?assignees=&labels=0%2Fpresubmission&template=presubmission-inquiry.md&title=) 
 2. [Click here to submit your package for peer review.](https://github.com/pyOpenSci/software-review/issues/new?assignees=&labels=1%2Feditor-checks%2C+New+Submission%21&template=submit-software-for-review.md&title=) 
 
 
