@@ -122,6 +122,16 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "schlich",
+      "name": "Ty Schlichenmeyer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21191435?v=4",
+      "profile": "https://github.com/schlich",
+      "contributions": [
+        "code",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
