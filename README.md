@@ -1,6 +1,6 @@
 # Welcome to pyOpenSci Software Peer Review 👋 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Hi there! This repository is where pyOpenSci 
@@ -85,6 +85,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/mccrayjr"><img src="https://avatars.githubusercontent.com/u/69483966?v=4?s=100" width="100px;" alt="John McCray"/><br /><sub><b>John McCray</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/commits?author=mccrayjr" title="Code">💻</a> <a href="https://github.com/pyOpenSci/software-submission/pulls?q=is%3Apr+reviewed-by%3Amccrayjr" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://jafy.eu"><img src="https://avatars.githubusercontent.com/u/17950287?v=4?s=100" width="100px;" alt="James A. Fellows Yates"/><br /><sub><b>James A. Fellows Yates</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/commits?author=jfy133" title="Code">💻</a> <a href="https://github.com/pyOpenSci/software-submission/pulls?q=is%3Apr+reviewed-by%3Ajfy133" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Midnighter"><img src="https://avatars.githubusercontent.com/u/135653?v=4?s=100" width="100px;" alt="Moritz E. Beber"/><br /><sub><b>Moritz E. Beber</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/commits?author=midnighter" title="Code">💻</a> <a href="https://github.com/pyOpenSci/software-submission/pulls?q=is%3Apr+reviewed-by%3Amidnighter" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/schlich"><img src="https://avatars.githubusercontent.com/u/21191435?v=4?s=100" width="100px;" alt="Ty Schlichenmeyer"/><br /><sub><b>Ty Schlichenmeyer</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/commits?author=schlich" title="Code">💻</a> <a href="https://github.com/pyOpenSci/software-submission/pulls?q=is%3Apr+reviewed-by%3Aschlich" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
 </table>
