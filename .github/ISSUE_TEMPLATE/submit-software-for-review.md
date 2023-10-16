@@ -16,7 +16,8 @@ Version submitted:
 Editor: TBD  
 Reviewer 1: TBD  
 Reviewer 2: TBD  
-Archive: TBD  
+Archive: TBD
+JOSS DOI: TBD
 Version accepted: TBD 
 Date accepted (month/day/year): TBD
 
