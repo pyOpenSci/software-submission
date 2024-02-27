@@ -59,8 +59,8 @@ scope. (If you are unsure of which category you fit, we suggest you make a pre-s
 If your package is associated with an 
 existing community please check below:
 
-- [ ] Pangeo: My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
 - [ ] Astropy: Link coming soon to standards
+- [ ] Pangeo: My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
 
 > [^1]: Please fill out a pre-submission inquiry before submitting a data visualization package.
 
