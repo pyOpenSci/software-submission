@@ -2,7 +2,7 @@
 name: Submit Software for Review
 about: Use to submit your Python package for pyOpenSci peer review
 title: ''
-labels: 1/editor-checks, New Submission!
+labels: 0/pre-review-checks, New Submission!
 assignees: ''
 
 ---
@@ -50,19 +50,17 @@ scope. (If you are unsure of which category you fit, we suggest you make a pre-s
 	- [ ] Scientific software wrappers
 	- [ ] Database interoperability
 
-Domain Specific & Community Partnerships 
+## Domain Specific
 
-	- [ ] Geospatial
-	- [ ] Education
-	- [ ] Pangeo
+- [ ] Geospatial
+- [ ] Education
 	
-
 ## Community Partnerships
 If your package is associated with an 
 existing community please check below:
 
-- [ ] [Pangeo][pangeoWebsite]
-	- [ ] My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
+- [ ] Astropy: Link coming soon to standards
+- [ ] Pangeo: My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
 
 > [^1]: Please fill out a pre-submission inquiry before submitting a data visualization package.
 
