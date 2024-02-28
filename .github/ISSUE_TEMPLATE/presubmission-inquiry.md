@@ -28,8 +28,8 @@ We partner with communities to support peer review with an additional layer of
 checks that satisfy community requirements. If your package fits into an 
 existing community please check below:
 
-- [ ] [Pangeo][pangeoWebsite]
-	- [ ] My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
+- [ ] Astropy: Link coming soon to standards
+- [ ] Pangeo: My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
 
 ## Scope 
 
