@@ -59,7 +59,7 @@ scope. (If you are unsure of which category you fit, we suggest you make a pre-s
 If your package is associated with an 
 existing community please check below:
 
-- [ ] Astropy: Link coming soon to standards
+- [ ] Astropy:[My package adheres to Astropy community standards](https://www.pyopensci.org/software-peer-review/partners/astropy.html) 
 - [ ] Pangeo: My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
 
 > [^1]: Please fill out a pre-submission inquiry before submitting a data visualization package.
