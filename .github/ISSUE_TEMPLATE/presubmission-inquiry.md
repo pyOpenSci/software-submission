@@ -52,12 +52,17 @@ scope. (If you are unsure of which category you fit, we suggest you make a pre-s
 	- [ ] Scientific software wrappers
 	- [ ] Database interoperability
 
-Domain Specific & Community Partnerships 
+## Domain Specific
 
-	- [ ] Geospatial
-	- [ ] Education
-	- [ ] Pangeo
-	- [ ] Unsure/Other (explain below)
+- [ ] Geospatial
+- [ ] Education
+	
+## Community Partnerships
+If your package is associated with an 
+existing community please check below:
+
+- [ ] Astropy:[My package adheres to Astropy community standards](https://www.pyopensci.org/software-peer-review/partners/astropy.html) 
+- [ ] Pangeo: My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
         
 - Explain how and why the package falls under these categories (briefly, 1-2 sentences). Please note any areas you are unsure of:
 
