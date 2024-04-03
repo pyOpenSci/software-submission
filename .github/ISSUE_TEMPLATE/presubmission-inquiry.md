@@ -28,7 +28,7 @@ We partner with communities to support peer review with an additional layer of
 checks that satisfy community requirements. If your package fits into an 
 existing community please check below:
 
-- [ ] Astropy: Link coming soon to standards
+- [ ] Astropy:[My package adheres to Astropy community standards](https://www.pyopensci.org/software-peer-review/partners/astropy.html) 
 - [ ] Pangeo: My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
 
 ## Scope 
