@@ -64,7 +64,7 @@ existing community please check below:
 
 > [^1]: Please fill out a pre-submission inquiry before submitting a data visualization package.
 
-- **For all submissions**, explain how the and why the package falls under the categories you indicated above. In your explanation, please address the following points (briefly, 1-2 sentences for each):  
+- **For all submissions**, explain how and why the package falls under the categories you indicated above. In your explanation, please address the following points (briefly, 1-2 sentences for each):  
 
   - Who is the target audience and what are scientific applications of this package?  
 
