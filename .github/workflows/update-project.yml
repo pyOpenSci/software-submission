@@ -1,0 +1,27 @@
+name: update-project
+
+on:
+  issues:
+    types:
+      - labeled
+
+jobs:
+  update-issue-column:
+    runs-on: ubuntu-latest
+    permissions:
+      repository-projects: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Get column name
+        id: get-column-name
+        run: |
+          value=$(jq -r .labelToColumn.\"${{ github.event.label.name }}\" update-project.json)
+          echo "name=$value" >>$GITHUB_OUTPUT
+          echo "Column Name: $value"
+      - name: Move issue to column
+        if: ${{ steps.get-column-name.outputs.name != 'null' }}
+        uses: alex-page/github-project-automation-plus@v0.9.0
+        with:
+          project: peer-review-status
+          column: ${{ steps.get-column-name.outputs.name }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
