@@ -134,7 +134,7 @@ The [review template can be found here][Review Template].
 
 [JossPaperRequirements]: https://joss.readthedocs.io/en/latest/submitting.html#what-should-my-paper-contain
 
-[PyOpenSciCodeOfConduct]: https://www.pyopensci.org/governance/CODE_OF_CONDUCT
+[PyOpenSciCodeOfConduct]: https://www.pyopensci.org/handbook/CODE_OF_CONDUCT.html
 
 [OsiApprovedLicense]: https://opensource.org/licenses
 

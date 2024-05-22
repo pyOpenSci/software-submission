@@ -78,7 +78,7 @@ existing community please check below:
 
 [PackageCategories]: https://www.pyopensci.org/software-peer-review/about/package-scope.html
 
-[Conduct]: https://www.pyopensci.org/governance/CODE_OF_CONDUCT
+[Conduct]: https://www.pyopensci.org/handbook/CODE_OF_CONDUCT.html
 
 [Commitment]: https://www.pyopensci.org/software-peer-review/our-process/policies.html#after-acceptance-package-ownership-and-maintenance
 
@@ -88,4 +88,4 @@ existing community please check below:
 
 [pangeoWebsite]: https://www.pangeo.io
 
-[PyOpenSciCodeOfConduct]: https://www.pyopensci.org/governance/CODE_OF_CONDUCT
+[PyOpenSciCodeOfConduct]: https://www.pyopensci.org/handbook/CODE_OF_CONDUCT.html
