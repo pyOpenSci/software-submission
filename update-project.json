@@ -1,0 +1,8 @@
+{
+	"labelToColumn": {
+		"0/pre-review-checks": "pre-review-checks",
+		"1-editor-assigned": "under-review",
+		"6/pyOS-approved 🚀🚀🚀": "pyos-accepted",
+		"9/joss-approved": "joss-accepted"
+	}
+}
