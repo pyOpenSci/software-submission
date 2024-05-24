@@ -132,6 +132,16 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "FFY00",
+      "name": "Filipe Laíns",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11718923?v=4",
+      "profile": "https://ffy00.github.io/",
+      "contributions": [
+        "code",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
