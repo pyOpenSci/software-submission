@@ -35,12 +35,6 @@ existing community please check below:
 
 - Please indicate which [category or categories][PackageCategories] this package falls under:
 
-## Scope
-
-- Please indicate which category or categories. 
-Check out our [package scope page][PackageCategories] to learn more about our 
-scope. (If you are unsure of which category you fit, we suggest you make a pre-submission inquiry):
-
 	- [ ] Data retrieval
 	- [ ] Data extraction
 	- [ ] Data processing/munging
@@ -56,13 +50,7 @@ scope. (If you are unsure of which category you fit, we suggest you make a pre-s
 
 - [ ] Geospatial
 - [ ] Education
-	
-## Community Partnerships
-If your package is associated with an 
-existing community please check below:
 
-- [ ] Astropy:[My package adheres to Astropy community standards](https://www.pyopensci.org/software-peer-review/partners/astropy.html) 
-- [ ] Pangeo: My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
         
 - Explain how and why the package falls under these categories (briefly, 1-2 sentences). Please note any areas you are unsure of:
 
