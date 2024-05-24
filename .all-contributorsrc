@@ -142,6 +142,16 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "slayoo",
+      "name": "Sylwester Arabas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89685?v=4",
+      "profile": "https://slayoo.github.io/",
+      "contributions": [
+        "code",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
