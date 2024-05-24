@@ -24,4 +24,4 @@ jobs:
         with:
           project: peer-review-status
           column: ${{ steps.get-column-name.outputs.name }}
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.GHPROJECT_TOKEN }}
