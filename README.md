@@ -1,6 +1,6 @@
 # Welcome to pyOpenSci Software Peer Review 👋 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Hi there! This repository is where pyOpenSci 
@@ -87,6 +87,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Midnighter"><img src="https://avatars.githubusercontent.com/u/135653?v=4?s=100" width="100px;" alt="Moritz E. Beber"/><br /><sub><b>Moritz E. Beber</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/commits?author=midnighter" title="Code">💻</a> <a href="https://github.com/pyOpenSci/software-submission/pulls?q=is%3Apr+reviewed-by%3Amidnighter" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/schlich"><img src="https://avatars.githubusercontent.com/u/21191435?v=4?s=100" width="100px;" alt="Ty Schlichenmeyer"/><br /><sub><b>Ty Schlichenmeyer</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/commits?author=schlich" title="Code">💻</a> <a href="https://github.com/pyOpenSci/software-submission/pulls?q=is%3Apr+reviewed-by%3Aschlich" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://ffy00.github.io/"><img src="https://avatars.githubusercontent.com/u/11718923?v=4?s=100" width="100px;" alt="Filipe Laíns"/><br /><sub><b>Filipe Laíns</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/commits?author=FFY00" title="Code">💻</a> <a href="https://github.com/pyOpenSci/software-submission/pulls?q=is%3Apr+reviewed-by%3AFFY00" title="Reviewed Pull Requests">👀</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://slayoo.github.io/"><img src="https://avatars.githubusercontent.com/u/89685?v=4?s=100" width="100px;" alt="Sylwester Arabas"/><br /><sub><b>Sylwester Arabas</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/commits?author=slayoo" title="Code">💻</a> <a href="https://github.com/pyOpenSci/software-submission/pulls?q=is%3Apr+reviewed-by%3Aslayoo" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
 </table>
