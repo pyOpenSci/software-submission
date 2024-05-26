@@ -51,8 +51,9 @@ existing community please check below:
 - [ ] Geospatial
 - [ ] Education
 
+---
         
-- Explain how and why the package falls under these categories (briefly, 1-2 sentences). Please note any areas you are unsure of:
+- Explain how and why the package falls under these categories (briefly, 1-2 sentences). For community partnerships, check also their specific guidelines as documented in the links above. Please note any areas you are unsure of:
 
 - Who is the target audience and what are the scientific applications of this package?  
 
