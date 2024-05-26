@@ -12,16 +12,45 @@ jobs:
       repository-projects: write
     steps:
       - uses: actions/checkout@v4
-      - name: Get column name
-        id: get-column-name
+      - name: Get column ID
+        id: get-column
         run: |
-          value=$(jq -r .labelToColumn.\"${{ github.event.label.name }}\" update-project.json)
-          echo "name=$value" >>$GITHUB_OUTPUT
-          echo "Column Name: $value"
-      - name: Move issue to column
-        if: ${{ steps.get-column-name.outputs.name != 'null' }}
-        uses: alex-page/github-project-automation-plus@v0.9.0
+          value=$(jq -r .labelToColumnId.\"${{ github.event.label.name }}\" update-project.json)
+          echo "id=$value" >>$GITHUB_OUTPUT
+          echo "Label: ${{ github.event.label.name }}"
+          echo "Column id: $value"
+      - name: Add issue to project
+        if: ${{ steps.get-column.outputs.id != 'null' }}
+        id: add-to-project
+        uses: actions/add-to-project@v1.0.1
         with:
-          project: peer-review-status
-          column: ${{ steps.get-column-name.outputs.name }}
-          repo-token: ${{ secrets.GHPROJECT_TOKEN }}
+          project-url: https://github.com/orgs/pyOpenSci/projects/7
+          github-token: ${{ secrets.GHPROJECT_TOKEN }}
+      - name: Move issue to column
+        if: ${{ steps.get-column.outputs.id != 'null' }}
+        uses: octokit/graphql-action@v2.x
+        with:
+          query: |
+            mutation($project: ID!, $item: ID!, $field: ID!, $column: String!) {
+              updateProjectV2ItemFieldValue(
+                input: {
+                  projectId: $project
+                  itemId: $item
+                  fieldId: $field
+                  value: {
+                    singleSelectOptionId: $column
+                  }
+                }
+              ) {
+                projectV2Item {
+                    id
+                }
+              }
+            }
+          variables: |
+            project: "PVT_kwDOAbmP7s4ASqjL"
+            item: ${{ steps.add-to-project.outputs.itemId }}
+            field: "PVTSSF_lADOAbmP7s4ASqjLzgL66FI"
+            column: ${{ steps.get-column.outputs.id }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GHPROJECT_TOKEN }}
