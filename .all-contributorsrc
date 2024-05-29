@@ -152,6 +152,16 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "dhomeier",
+      "name": "Derek Homeier",
+      "avatar_url": "https://avatars.githubusercontent.com/u/709020?v=4",
+      "profile": "https://github.com/dhomeier",
+      "contributions": [
+        "code",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
