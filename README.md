@@ -1,6 +1,6 @@
 # Welcome to pyOpenSci Software Peer Review 👋 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Hi there! This repository is where pyOpenSci 
@@ -90,6 +90,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://slayoo.github.io/"><img src="https://avatars.githubusercontent.com/u/89685?v=4?s=100" width="100px;" alt="Sylwester Arabas"/><br /><sub><b>Sylwester Arabas</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/commits?author=slayoo" title="Code">💻</a> <a href="https://github.com/pyOpenSci/software-submission/pulls?q=is%3Apr+reviewed-by%3Aslayoo" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/dhomeier"><img src="https://avatars.githubusercontent.com/u/709020?v=4?s=100" width="100px;" alt="Derek Homeier"/><br /><sub><b>Derek Homeier</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/commits?author=dhomeier" title="Code">💻</a> <a href="https://github.com/pyOpenSci/software-submission/pulls?q=is%3Apr+reviewed-by%3Adhomeier" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
 </table>
