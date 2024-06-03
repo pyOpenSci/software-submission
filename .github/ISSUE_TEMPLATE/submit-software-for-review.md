@@ -12,7 +12,8 @@ All current maintainers: (@github_handle1, @github_handle2)
 Package Name: Package name here
 One-Line Description of Package: Description here 
 Repository Link:  
-Version submitted:   
+Version submitted: 
+EiC: TBD
 Editor: TBD  
 Reviewer 1: TBD  
 Reviewer 2: TBD  
