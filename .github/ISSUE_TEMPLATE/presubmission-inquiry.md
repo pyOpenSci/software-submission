@@ -11,7 +11,7 @@ Submitting Author: Name (@github_handle)
 Package Name: 
 One-Line Description of Package: 
 Repository Link (if existing):
-EiC: 
+EiC: TBD
 
 ---
 
