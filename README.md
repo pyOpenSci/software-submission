@@ -23,7 +23,7 @@ To submit your package for peer review, you can open a GitHub issue:
 
 
 ## Why submit a package to pyOpenSci? 
-There are [numerous benefits to submitting your package to us for review](https://www.pyopensci.org/peer-review-guide/about-peer-review/review-benefits.html?highlight=benefits)including:
+There are [numerous benefits to submitting your package to us for review](https://www.pyopensci.org/peer-review-guide/about-peer-review/review-benefits.html?highlight=benefits) including:
 
 * **Get Seen:** pyOpenSci will promote your package to the community 
 * **Find support:** As a maintainer, you will become a part of our growing online community. Here, you will find people who you can ask questions and talk to about shared open source and open science challenges. 
