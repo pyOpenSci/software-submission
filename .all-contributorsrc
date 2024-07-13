@@ -162,6 +162,16 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "galenseilis",
+      "name": "Galen Seilis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11385121?v=4",
+      "profile": "https://galenseilis.github.io/",
+      "contributions": [
+        "code",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
