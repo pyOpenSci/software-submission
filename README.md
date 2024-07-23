@@ -28,7 +28,7 @@ There are [numerous benefits to submitting your package to us for review](https:
 * **Get Seen:** pyOpenSci will promote your package to the community 
 * **Find support:** As a maintainer, you will become a part of our growing online community. Here, you will find people who you can ask questions and talk to about shared open source and open science challenges. 
 * If the time comes, we will help you find a new maintainer for your package if you need to take a break. 
-* [Our partnership with JOSS](https://www.pyopensci.org/peer-review-guide/about-peer-review/pyopensci-related-joss-ropensci.html#you-can-improve-your-package-with-a-review-at-pyopensci-and-still-publish-in-joss) means that if you are accepted by us, JOSS will accept your package too (if it's in JOSS' scope). It's a win-win. 
+* [Our partnership with JOSS](https://www.pyopensci.org/software-peer-review/partners/joss.html#you-can-improve-your-package-with-a-review-at-pyopensci-and-still-publish-in-joss) means that if you are accepted by us, JOSS will accept your package too (if it's in JOSS' scope). It's a win-win. 
 
 ## Want to review for pyOpenSci?
 
@@ -44,10 +44,10 @@ Peer review is a valuable way to boost your data science skills. If you are inte
 ## Still reading? A links to help you learn more about pyOpenSci
 
 * 📖 [Check out our python packaging guide](https://www.pyopensci.org/python-package-guide)
-* 📖 [Why is peer review open?](https://www.pyopensci.org/peer-review-guide/about-peer-review/intro.html#why-are-reviews-open) 
-* 📖 [Why do we need peer review](https://www.pyopensci.org/peer-review-guide/about-peer-review/intro.html#why-does-the-scientific-community-need-software-peer-review)
+* 📖 [Why is peer review open?](https://www.pyopensci.org/software-peer-review/about/why-open-review.html) 
+* 📖 [Why do we need peer review](https://www.pyopensci.org/software-peer-review/about/intro.html#peer-review-is-needed-in-the-scientific-community)
 * 📖 [What are the benefits of peer review?](https://www.pyopensci.org/peer-review-guide/about-peer-review/review-benefits.html)
-* 📖 [Why is software peer review important](https://www.pyopensci.org/peer-review-guide/about-peer-review/intro.html#why-does-the-scientific-community-need-software-peer-review)
+* 📖 [Why is software peer review important](https://www.pyopensci.org/software-peer-review/about/intro.html#peer-review-is-needed-in-the-scientific-community)
 
 
 ## Need help? Have questions? 
@@ -57,9 +57,9 @@ If you need help with Python packaging, have questions about our review process,
 Our community is growing. 
 
 * [Check out some of our members on our website.](https://www.pyopensci.org/our-community/) 
-* [See our editorial board](https://www.pyopensci.org/about-peer-review/#our-editorial-board)
-* [View our advisory council](https://www.pyopensci.org/our-community/#pyopensci-working-advisory-committee)
-* [View our executive council](https://www.pyopensci.org/our-community/#external-advisory-committee--leadership)
+* [See our editorial board](https://www.pyopensci.org/about-peer-review/#meet-our-editorial-board)
+* [View our advisory council](https://www.pyopensci.org/our-community/#pyopensci-advisory-council)
+* [View our executive council](https://www.pyopensci.org/our-community/#executive-council-leadership--staff)
 
 ## Contributors ✨
 
