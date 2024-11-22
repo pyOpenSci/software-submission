@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-Submitting Author: Name (@github_handle)
+Submitting Author: (@github_handle)
 All current maintainers: (@github_handle1, @github_handle2)
 Package Name: Package name here
 One-Line Description of Package: Description here 
