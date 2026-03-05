@@ -128,8 +128,6 @@ Confirm each of the following by checking the box.
 submission and improve our peer review process. We will also ask our reviewers 
 and editors to fill this out.
 
-**P.S.** Have feedback/comments about our review process? Leave a comment [here][Comments]
-
 ## Editor and Review Templates
 
 The [editor template can be found here][Editor Template].
@@ -153,8 +151,6 @@ The [review template can be found here][Review Template].
 [Editor Template]: https://www.pyopensci.org/software-peer-review/appendices/templates.html#editor-s-template
 
 [Review Template]: https://www.pyopensci.org/software-peer-review/appendices/templates.html#peer-review-template
-
-[Comments]: https://pyopensci.discourse.group/
 
 [PangeoCollaboration]: https://www.pyopensci.org/software-peer-review/partners/pangeo
 

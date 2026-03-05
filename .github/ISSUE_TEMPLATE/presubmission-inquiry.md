@@ -73,17 +73,11 @@ existing community please check below:
 
 - Any other questions or issues we should be aware of:
 
-
-**P.S.** Have feedback/comments about our review process? Leave a comment [here][Comments]
-
-
 [PackageCategories]: https://www.pyopensci.org/software-peer-review/about/package-scope.html
 
 [Conduct]: https://www.pyopensci.org/handbook/CODE_OF_CONDUCT.html
 
 [Commitment]: https://www.pyopensci.org/software-peer-review/our-process/policies.html#after-acceptance-package-ownership-and-maintenance
-
-[Comments]: https://pyopensci.discourse.group/
 
 [PangeoCollaboration]: https://www.pyopensci.org/software-peer-review/partners/pangeo
 
