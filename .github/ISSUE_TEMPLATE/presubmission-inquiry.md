@@ -20,6 +20,17 @@ EiC: TBD
 - [ ] I agree to abide by [pyOpenSci's Code of Conduct][PyOpenSciCodeOfConduct] during the review process and in maintaining my package after should it be accepted.
 - [ ] I have read and will commit to package maintenance after the review as per the [pyOpenSci Policies Guidelines][Commitment].
 
+## Development Best Practices & GenerativeAI Use Disclosure 
+
+- [ ] This package has a public development history spanning 3-6 months, with commits distributed over time that reflect **iterative, thoughtful development.**  
+- [ ] All code in this package has been **carefully reviewed by a human**. Its implementation is also understood by the authors submitting the package.  
+- [ ] All communication on this issue will be written by a human (someone on your maintainer team). We embrace the use of LLMs for translation and grammar correction. We prefer honest interactions over ones that prioritize perfect language and grammar. As little aid from a LLM as possible.   
+- [ ] **Generative AI tools were used to develop and maintain this package.**   
+
+### Please list the tools and frameworks that you used below (Examples include Claude Code, Cursor, OpenClaw, ChatGPT, VSCode + Copilot)
+
+### Describe the nature and scope of support that LLMs provided. Examples include code generation, autocomplete, documentation development, refactoring, test development
+
 ## Description
 
 - Include a brief paragraph describing what your package does:
