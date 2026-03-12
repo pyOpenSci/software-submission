@@ -31,6 +31,7 @@ Date accepted (month/day/year): TBD
 
 ## Development Best Practices & GenerativeAI Use Disclosure 
 
+[Read our full generative ai policy here.](https://www.pyopensci.org/software-peer-review/our-process/policies.html#disclosure-of-generative-ai-use-in-pyopensci-reviewed-packages)
 - [ ] This package has a public development history spanning 3-6 months, with commits distributed over time that reflect **iterative, thoughtful development.**  
 - [ ] All code in this package has been **carefully reviewed by a human**. Its implementation is also understood by the authors submitting the package.  
 - [ ] All communication on this issue will be written by a human (someone on your maintainer team). We embrace the use of LLMs for translation and grammar correction. We prefer honest interactions over ones that prioritize perfect language and grammar. As little aid from a LLM as possible.   
