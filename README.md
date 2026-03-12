@@ -18,9 +18,9 @@ Over time we also hope to address the issue of multiple packages that have overl
 ## How to submit a package for review 
 
 To submit your package for peer review, you can open a GitHub issue:
+
 1. [Click here to start a presubmission inquiry - if you are unsure of whether your package is in scope for us you may want to click here to open an issue.](https://github.com/pyOpenSci/software-review/issues/new?assignees=&labels=0%2Fpresubmission&template=presubmission-inquiry.md&title=) 
 2. [Click here to submit your package for peer review.](https://github.com/pyOpenSci/software-review/issues/new?assignees=&labels=1%2Feditor-checks%2C+New+Submission%21&template=submit-software-for-review.md&title=) 
-
 
 ## Why submit a package to pyOpenSci? 
 There are [numerous benefits to submitting your package to us for review](https://www.pyopensci.org/peer-review-guide/about-peer-review/review-benefits.html?highlight=benefits) including:
@@ -49,10 +49,6 @@ Peer review is a valuable way to boost your data science skills. If you are inte
 * 📖 [What are the benefits of peer review?](https://www.pyopensci.org/peer-review-guide/about-peer-review/review-benefits.html)
 * 📖 [Why is software peer review important](https://www.pyopensci.org/software-peer-review/about/intro.html#peer-review-is-needed-in-the-scientific-community)
 
-
-## Need help? Have questions? 
-If you need help with Python packaging, have questions about our review process, or just want to reach out, we encourage you to [post on our discourse forum](https://pyopensci.discourse.group/c/coding-help/10). We love to hear from the community. 
-
 ## 👥 Our community 👥 
 Our community is growing. 
 
@@ -63,7 +59,7 @@ Our community is growing.
 
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key/)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->

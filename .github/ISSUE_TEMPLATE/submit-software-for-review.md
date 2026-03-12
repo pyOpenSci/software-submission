@@ -29,6 +29,22 @@ Date accepted (month/day/year): TBD
 - [ ] I agree to abide by [pyOpenSci's Code of Conduct][PyOpenSciCodeOfConduct] during the review process and in future interactions in spaces supported by pyOpenSci should it be accepted.
 - [ ] I have read and will commit to package maintenance after the review as per the [pyOpenSci Policies Guidelines][Commitment].
 
+## Development Best Practices & GenerativeAI Use Disclosure 
+
+[Read our full generative ai policy here.](https://www.pyopensci.org/software-peer-review/our-process/policies.html#disclosure-of-generative-ai-use-in-pyopensci-reviewed-packages)
+- [ ] This package has a public development history spanning 3-6 months, with commits distributed over time that reflect **iterative, thoughtful development.**  
+- [ ] All code in this package has been **carefully reviewed by a human**. Its implementation is also understood by the authors submitting the package.  
+- [ ] All communication on this issue will be written by a human (someone on your maintainer team). We embrace the use of LLMs for translation and grammar correction. We prefer honest interactions over ones that prioritize perfect language and grammar. As little aid from a LLM as possible.   
+- [ ] **Generative AI tools were used to develop and maintain this package.**   
+
+### Please list the tools and frameworks that you used below (Examples include Claude Code, Cursor, OpenClaw, ChatGPT, VSCode + Copilot)
+
+### Describe the nature and scope of support that LLMs provided. Examples include code generation, autocomplete, documentation development, refactoring, test development
+
+### If you have a policy around generative AI use in your project, please provide a link to it below:
+
+- _Your link here (remove this line if you don't have a link)_
+
 ## Description
 
 - Include a brief paragraph describing what your package does:
@@ -117,8 +133,6 @@ Confirm each of the following by checking the box.
 submission and improve our peer review process. We will also ask our reviewers 
 and editors to fill this out.
 
-**P.S.** Have feedback/comments about our review process? Leave a comment [here][Comments]
-
 ## Editor and Review Templates
 
 The [editor template can be found here][Editor Template].
@@ -142,8 +156,6 @@ The [review template can be found here][Review Template].
 [Editor Template]: https://www.pyopensci.org/software-peer-review/appendices/templates.html#editor-s-template
 
 [Review Template]: https://www.pyopensci.org/software-peer-review/appendices/templates.html#peer-review-template
-
-[Comments]: https://pyopensci.discourse.group/
 
 [PangeoCollaboration]: https://www.pyopensci.org/software-peer-review/partners/pangeo
 
