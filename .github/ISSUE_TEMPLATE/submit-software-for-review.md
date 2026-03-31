@@ -94,10 +94,10 @@ For details about the pyOpenSci packaging requirements, see our [packaging guide
 
 - [ ] The package has an **obvious research application** according to JOSS's definition in their [submission requirements][JossSubmissionRequirements]. Be aware that completing the pyOpenSci review process **does not** guarantee acceptance to JOSS. Be sure to read their submission requirements (linked above) if you are interested in submitting to JOSS.
 - [ ] The package is not a "minor utility" as defined by JOSS's [submission requirements][JossSubmissionRequirements]: "Minor ‘utility’ packages, including ‘thin’ API clients, are not acceptable." pyOpenSci welcomes these packages under "Data Retrieval", but JOSS has slightly different criteria.
-- [ ] The package contains a `paper.md` matching [JOSS's requirements][JossPaperRequirements] with a high-level description in the package root or in `inst/`.
+- [ ] The package contains a `paper.md` matching [JOSS's requirements][JossPaperRequirements] with a high-level description in the package root or in `inst/` by the time you wish to submit to JOSS.
 - [ ] The package is deposited in a long-term repository with the DOI: 
 
-*Note: JOSS accepts our review as theirs. You will NOT need to go through another full review. JOSS will only review your paper.md file. Be sure to link to this pyOpenSci issue when a JOSS issue is opened for your package. Also be sure to tell the JOSS editor that this is a pyOpenSci reviewed package once you reach this step.*
+*Note: JOSS accepts our review as theirs. You will NOT need to go through another full review. JOSS will only review your paper.md file. Be sure to link to this pyOpenSci issue when a JOSS issue is opened for your package. Also be sure to tell the JOSS editor that this is a pyOpenSci reviewed package once you reach this step. Please note that the PyOpenSci reviewers will not be reviewing the paper.md file*
   
 </details>
 
@@ -117,7 +117,7 @@ Confirm each of the following by checking the box.
 submission and improve our peer review process. We will also ask our reviewers 
 and editors to fill this out.
 
-**P.S.** Have feedback/comments about our review process? Leave a comment [here][Comments]
+**P.S.** Have feedback/comments about our review process? Leave a comment [on our discourse forum][Comments]
 
 ## Editor and Review Templates
 
