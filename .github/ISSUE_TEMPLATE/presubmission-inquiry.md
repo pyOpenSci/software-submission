@@ -63,7 +63,7 @@ existing community please check below:
 - Any other questions or issues we should be aware of:
 
 
-**P.S.** Have feedback/comments about our review process? Leave a comment [here][Comments]
+**P.S.** Have feedback/comments about our review process? Leave a comment [on our discourse forum][Comments]
 
 
 [PackageCategories]: https://www.pyopensci.org/software-peer-review/about/package-scope.html
