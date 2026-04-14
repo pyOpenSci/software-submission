@@ -38,8 +38,10 @@ community. We see peer review as a two way conversation that in the end, improve
 1. [Click here to read our reviewer guide](https://www.pyopensci.org/peer-review-guide/software-peer-review-guide/reviewer-guide.html)
 2. [Click here to sign up to be a reviewer in the future.](https://forms.gle/GHfxvmS47nQFDcBM6) 
 
-Peer review is a valuable way to boost your data science skills. If you are interested in reviewing but have not done a software review before, we have a mentorship program that can support you. Feel free to reach out to us about this on our discourse forum about this. 
-
+Peer review is an excellent way to strengthen your data science skills. If 
+you’re interested in becoming a reviewer but haven’t completed a software review 
+before, we offer a mentorship program to support you. Feel free to reach out to us 
+through [GitHub Discussions](https://github.com/orgs/pyOpenSci/discussions).
 
 ## Still reading? A links to help you learn more about pyOpenSci
 
@@ -51,7 +53,9 @@ Peer review is a valuable way to boost your data science skills. If you are inte
 
 
 ## Need help? Have questions? 
-If you need help with Python packaging, have questions about our review process, or just want to reach out, we encourage you to [post on our discourse forum](https://pyopensci.discourse.group/c/coding-help/10). We love to hear from the community. 
+If you need help with Python packaging, have questions about our review process, 
+or just want to reach out, we encourage you to [post on our GitHub Discussions](https://github.com/orgs/pyOpenSci/discussions). 
+We love to hear from the community!
 
 ## 👥 Our community 👥 
 Our community is growing. 
