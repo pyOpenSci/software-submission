@@ -33,6 +33,16 @@ Date accepted (month/day/year): TBD
 
 - Include a brief paragraph describing what your package does:
 
+## Associated Publication (Optional)
+
+If your package is associated with a peer-reviewed publication, please provide the details below. This information helps us assess eligibility for our [publication fast-track pathway](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html). If this does not apply, you can leave these fields blank.
+
+Publication Title: 
+
+Publication DOI: 
+
+Journal/Venue: 
+
 
 ## Scope
 
