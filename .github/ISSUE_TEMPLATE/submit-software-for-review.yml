@@ -1,0 +1,228 @@
+name: Submit Software for Review
+description: Use to submit your Python package for pyOpenSci peer review
+title: "[Submission]: "
+labels:
+  - 0/pre-review-checks
+  - New Submission!
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting your package to pyOpenSci.
+
+        Please complete each section below. This form collects the information needed for editorial review and for automated triage checks.
+
+  - type: input
+    id: submitting_author
+    attributes:
+      label: Submitting Author
+      placeholder: "@github_handle"
+    validations:
+      required: true
+
+  - type: input
+    id: maintainers
+    attributes:
+      label: All current maintainers
+      placeholder: "@github_handle1, @github_handle2"
+    validations:
+      required: true
+
+  - type: input
+    id: package_name
+    attributes:
+      label: Package Name
+      placeholder: my-package
+    validations:
+      required: true
+
+  - type: input
+    id: one_line_description
+    attributes:
+      label: One-Line Description of Package
+      placeholder: Briefly describe what the package does
+    validations:
+      required: true
+
+  - type: input
+    id: repository_link
+    attributes:
+      label: Repository Link
+      placeholder: https://github.com/owner/repo
+      description: Public GitHub repository URL used by automated triage.
+    validations:
+      required: true
+
+  - type: input
+    id: version_submitted
+    attributes:
+      label: Version submitted
+      placeholder: v0.1.0
+      description: Tag, branch, or commit to review.
+    validations:
+      required: true
+
+  - type: textarea
+    id: editorial_tracking
+    attributes:
+      label: Editorial tracking
+      description: Leave these values as-is. Editors will update them during review.
+      value: |
+        EiC: TBD
+        Editor: TBD
+        Reviewer 1: TBD
+        Reviewer 2: TBD
+        Archive: TBD
+        JOSS DOI: TBD
+        Version accepted: TBD
+        Date accepted (month/day/year): TBD
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: conduct_and_maintenance
+    attributes:
+      label: Code of Conduct and commitment to maintain package
+      options:
+        - label: I agree to abide by pyOpenSci's Code of Conduct during the review process and in future interactions in spaces supported by pyOpenSci should it be accepted.
+          required: true
+        - label: I have read and will commit to package maintenance after the review as per the pyOpenSci Policies Guidelines.
+          required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Include a brief paragraph describing what your package does.
+      placeholder: Describe the package and its main purpose.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Scope
+
+        Check all relevant categories. If you are unsure whether your package is in scope, consider opening a pre-submission inquiry first.
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: Data retrieval
+        - label: Data extraction
+        - label: Data processing/munging
+        - label: Data deposition
+        - label: Data validation and testing
+        - label: Data visualization
+        - label: Workflow automation
+        - label: Citation management and bibliometrics
+        - label: Scientific software wrappers
+        - label: Database interoperability
+
+  - type: checkboxes
+    id: domain_specific
+    attributes:
+      label: Domain specific
+      options:
+        - label: Geospatial
+        - label: Education
+
+  - type: checkboxes
+    id: community_partnerships
+    attributes:
+      label: Community partnerships
+      options:
+        - label: Astropy - My package adheres to Astropy community standards
+        - label: Pangeo - My package adheres to the Pangeo standards listed in the pyOpenSci peer review guidebook
+
+  - type: textarea
+    id: scope_explanation
+    attributes:
+      label: Scope explanation
+      description: Briefly explain how the package fits the selected categories.
+      placeholder: |
+        Who is the target audience and what are the scientific applications of this package?
+
+        Are there other Python packages that accomplish the same thing? If so, how does yours differ?
+
+        If you made a pre-submission enquiry, please paste the link to the corresponding issue, forum post, or other discussion, or @tag the editor you contacted.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: technical_checks
+    attributes:
+      label: Technical checks
+      description: Confirm each of the following.
+      options:
+        - label: This package does not violate the Terms of Service of any service it interacts with.
+        - label: This package uses an OSI approved license.
+        - label: This package contains a README with instructions for installing the development version.
+        - label: This package includes documentation with examples for all functions.
+        - label: This package contains a tutorial with examples of its essential functions and uses.
+        - label: This package has a test suite.
+        - label: This package has continuous integration setup, such as GitHub Actions, CircleCI, or others.
+
+  - type: checkboxes
+    id: publication_options
+    attributes:
+      label: Publication options
+      options:
+        - label: I wish to automatically submit to the Journal of Open Source Software.
+
+  - type: checkboxes
+    id: joss_checks
+    attributes:
+      label: JOSS checks
+      description: Complete these only if you want automatic JOSS submission.
+      options:
+        - label: The package has an obvious research application according to JOSS's submission requirements.
+        - label: The package is not a minor utility as defined by JOSS's submission requirements.
+        - label: The package contains a `paper.md` matching JOSS's requirements by the time it is submitted to JOSS.
+
+  - type: input
+    id: joss_doi
+    attributes:
+      label: Long-term repository DOI for JOSS
+      placeholder: 10.5281/zenodo.xxxxxxx
+      description: Optional unless you plan to use JOSS submission.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: reviewer_prs
+    attributes:
+      label: Reviewer issues and pull requests
+      options:
+        - label: Yes, I am OK with reviewers submitting requested changes as issues or pull requests to my repository.
+          required: true
+
+  - type: checkboxes
+    id: author_commitments
+    attributes:
+      label: Author commitments
+      options:
+        - label: I have read the author guide.
+          required: true
+        - label: I expect to maintain this package for at least 2 years and can help find a replacement maintainer if needed.
+          required: true
+        - label: I filled out the pre-review survey.
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## References
+
+        - Packaging guide: https://www.pyopensci.org/python-package-guide/
+        - Package scope: https://www.pyopensci.org/software-peer-review/about/package-scope.html
+        - JOSS submission requirements: https://joss.readthedocs.io/en/latest/submitting.html#submission-requirements
+        - JOSS paper requirements: https://joss.readthedocs.io/en/latest/submitting.html#what-should-my-paper-contain
+        - Code of Conduct: https://www.pyopensci.org/handbook/CODE_OF_CONDUCT.html
+        - Author guide: https://www.pyopensci.org/software-peer-review/how-to/author-guide.html
+        - Editor template: https://www.pyopensci.org/software-peer-review/appendices/templates.html#editor-s-template
+        - Review template: https://www.pyopensci.org/software-peer-review/appendices/templates.html#peer-review-template
+        - Discussions: https://github.com/orgs/pyOpenSci/discussions
+        - Policies and maintenance commitment: https://www.pyopensci.org/software-peer-review/our-process/policies.html#after-acceptance-package-ownership-and-maintenance
