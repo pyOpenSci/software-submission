@@ -45,8 +45,28 @@ jobs:
 
             function getField(label) {
               const escaped = label.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-              const match = body.match(new RegExp(`^${escaped}:\\s*(.+)$`, 'mi'));
-              return match ? match[1].trim() : '';
+              const legacyMatch = body.match(new RegExp(`^${escaped}:\\s*(.+)$`, 'mi'));
+              if (legacyMatch) {
+                const value = legacyMatch[1].trim();
+                return value === '_No response_' ? '' : value;
+              }
+
+              const headingMatch = body.match(
+                new RegExp(`^###\\s+${escaped}\\s*$([\\s\\S]*?)(?=^###\\s+|\\Z)`, 'mi')
+              );
+
+              if (!headingMatch) {
+                return '';
+              }
+
+              const value = headingMatch[1]
+                .split('\n')
+                .map((line) => line.trim())
+                .filter((line) => line && !line.startsWith('<!--'))
+                .join('\n')
+                .trim();
+
+              return value === '_No response_' ? '' : value;
             }
 
             function normalizeRepositoryLink(rawValue) {
