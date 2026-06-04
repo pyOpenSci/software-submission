@@ -1,0 +1,380 @@
+name: pycmdcheck triage
+
+on:
+  issues:
+    types:
+      - opened
+      - edited
+      - labeled
+
+concurrency:
+  group: pycmdcheck-triage-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
+jobs:
+  triage:
+    if: >-
+      github.event.issue.pull_request == null &&
+      (
+        github.event.label.name == '0/pre-review-checks' ||
+        contains(toJson(github.event.issue.labels), '0/pre-review-checks')
+      )
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      issues: write
+    env:
+      PYCMDCHECK_VERSION: "0.1.0"
+
+    steps:
+      - name: Check out workflow repository
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@e58605a9b6da7c637471fab8847a5e5a6b8df081 # v5
+        with:
+          version: "0.11.19"
+
+      - name: Parse submission fields
+        id: parse
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        with:
+          script: |
+            const body = context.payload.issue.body || '';
+
+            function getField(label) {
+              const escaped = label.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+              const match = body.match(new RegExp(`^${escaped}:\\s*(.+)$`, 'mi'));
+              return match ? match[1].trim() : '';
+            }
+
+            function normalizeRepositoryLink(rawValue) {
+              if (!rawValue) {
+                return { isValid: false, error: 'No `Repository Link:` value was provided in the issue body.' };
+              }
+
+              const cleaned = rawValue.replace(/^<|>$/g, '').trim();
+              let url;
+
+              try {
+                url = new URL(cleaned);
+              } catch (error) {
+                return {
+                  isValid: false,
+                  error: `Could not parse the repository URL: ${cleaned}`,
+                };
+              }
+
+              const host = url.hostname.toLowerCase();
+              if (host !== 'github.com' && host !== 'www.github.com') {
+                return {
+                  isValid: false,
+                  error: 'Automated triage currently supports public GitHub repository URLs only.',
+                };
+              }
+
+              const parts = url.pathname.split('/').filter(Boolean);
+              if (parts.length < 2) {
+                return {
+                  isValid: false,
+                  error: 'Repository Link must point to a GitHub repository, for example https://github.com/owner/repo.',
+                };
+              }
+
+              const owner = parts[0];
+              const repo = parts[1].replace(/\.git$/, '');
+              const slug = `${owner}/${repo}`;
+
+              return {
+                isValid: true,
+                slug,
+                cloneUrl: `https://github.com/${slug}.git`,
+                webUrl: `https://github.com/${slug}`,
+              };
+            }
+
+            const packageName = getField('Package Name') || 'Unknown package';
+            const submittedVersion = getField('Version submitted');
+            const repositoryLink = getField('Repository Link');
+            const normalized = normalizeRepositoryLink(repositoryLink);
+
+            core.setOutput('package_name', packageName);
+            core.setOutput('submitted_version', submittedVersion);
+            core.setOutput('repository_link', repositoryLink);
+            core.setOutput('is_valid', normalized.isValid ? 'true' : 'false');
+            core.setOutput('repo_slug', normalized.slug || '');
+            core.setOutput('clone_url', normalized.cloneUrl || '');
+            core.setOutput('web_url', normalized.webUrl || repositoryLink || '');
+            core.setOutput('error', normalized.error || '');
+
+      - name: Clone submitted repository
+        if: steps.parse.outputs.is_valid == 'true'
+        env:
+          CLONE_URL: ${{ steps.parse.outputs.clone_url }}
+        run: git clone --depth 1 "$CLONE_URL" submitted-package
+
+      - name: Check out submitted version when provided
+        if: steps.parse.outputs.is_valid == 'true'
+        id: git_ref
+        env:
+          SUBMITTED_VERSION: ${{ steps.parse.outputs.submitted_version }}
+        run: |
+          set -euo pipefail
+          version="$(printf '%s' "$SUBMITTED_VERSION" | xargs)"
+
+          if [ -z "$version" ] || [ "$version" = "TBD" ]; then
+            echo "status=default_branch" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          cd submitted-package
+          git fetch --depth 1 origin "$version" || git fetch --depth 1 --tags origin
+
+          if git checkout "$version"; then
+            echo "status=checked_out" >> "$GITHUB_OUTPUT"
+            echo "resolved_ref=$version" >> "$GITHUB_OUTPUT"
+          else
+            echo "status=missing_ref" >> "$GITHUB_OUTPUT"
+            echo "resolved_ref=$version" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run safe pycmdcheck triage
+        if: steps.parse.outputs.is_valid == 'true'
+        id: triage
+        run: |
+          set +e
+          uvx --from "pycmdcheck==${PYCMDCHECK_VERSION}" pycmdcheck check submitted-package \
+            --format json \
+            --output pycmdcheck-results.json \
+            --only ST001 \
+            --only ST002 \
+            --only ST003 \
+            --only ST004 \
+            --only ST005 \
+            --only ST006 \
+            --only ST007 \
+            --only MT001 \
+            --only MT002 \
+            --only MT003 \
+            --only MT004 \
+            --only MT005 \
+            --only MT006 \
+            --only MT007 \
+            --only MT008 \
+            --only MT009 \
+            --only MT010 \
+            --only DC001 \
+            --only DC002 \
+            --only DC003 \
+            --only DC004 \
+            --only RL001 \
+            --only RL002 \
+            --only RL003 \
+            --only TS001 \
+            --only TS004
+          exit_code=$?
+          set -e
+
+          echo "exit_code=$exit_code" >> "$GITHUB_OUTPUT"
+
+      - name: Check for CI configuration
+        if: steps.parse.outputs.is_valid == 'true'
+        id: ci
+        run: |
+          set -euo pipefail
+
+          if compgen -G "submitted-package/.github/workflows/*.yml" > /dev/null || \
+             compgen -G "submitted-package/.github/workflows/*.yaml" > /dev/null || \
+             [ -f "submitted-package/.circleci/config.yml" ] || \
+             [ -f "submitted-package/.gitlab-ci.yml" ] || \
+             [ -f "submitted-package/azure-pipelines.yml" ] || \
+             [ -f "submitted-package/.travis.yml" ]; then
+            echo "status=passed" >> "$GITHUB_OUTPUT"
+            echo "message=Continuous integration configuration detected." >> "$GITHUB_OUTPUT"
+          else
+            echo "status=failed" >> "$GITHUB_OUTPUT"
+            echo "message=No CI configuration files were detected in the submitted repository." >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build triage comment
+        id: comment
+        if: always()
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        env:
+          PACKAGE_NAME: ${{ steps.parse.outputs.package_name }}
+          REPOSITORY_URL: ${{ steps.parse.outputs.web_url }}
+          SUBMITTED_VERSION: ${{ steps.parse.outputs.submitted_version }}
+          PARSE_VALID: ${{ steps.parse.outputs.is_valid }}
+          PARSE_ERROR: ${{ steps.parse.outputs.error }}
+          GIT_REF_STATUS: ${{ steps.git_ref.outputs.status }}
+          GIT_REF_VALUE: ${{ steps.git_ref.outputs.resolved_ref }}
+          TRIAGE_EXIT_CODE: ${{ steps.triage.outputs.exit_code }}
+          CI_STATUS: ${{ steps.ci.outputs.status }}
+          CI_MESSAGE: ${{ steps.ci.outputs.message }}
+        with:
+          script: |
+            const fs = require('fs');
+
+            const marker = '<!-- pyopensci-pycmdcheck-triage -->';
+            const packageName = process.env.PACKAGE_NAME || 'Unknown package';
+            const repoUrl = process.env.REPOSITORY_URL || '';
+            const submittedVersion = process.env.SUBMITTED_VERSION || '';
+            const parseValid = process.env.PARSE_VALID === 'true';
+            const parseError = process.env.PARSE_ERROR || '';
+            const gitRefStatus = process.env.GIT_REF_STATUS || '';
+            const gitRefValue = process.env.GIT_REF_VALUE || '';
+            const triageExitCode = process.env.TRIAGE_EXIT_CODE || '';
+            const ciStatus = process.env.CI_STATUS || '';
+            const ciMessage = process.env.CI_MESSAGE || '';
+
+            function renderFailure(result) {
+              const parts = [`- **${result.check_id}**`, `(${result.severity}, ${result.status})`];
+              if (result.message) {
+                parts.push(`: ${result.message}`);
+              }
+
+              let line = parts.join(' ');
+              if (result.hint) {
+                line += `\n  Hint: ${result.hint}`;
+              }
+              return line;
+            }
+
+            let body = `${marker}\n## Automated pycmdcheck Triage\n`;
+            body += '\n';
+            body += `Package: **${packageName}**\n`;
+            if (repoUrl) {
+              body += `Repository: ${repoUrl}\n`;
+            }
+            if (submittedVersion) {
+              body += `Submitted version: ${submittedVersion}\n`;
+            }
+
+            if (!parseValid) {
+              body += '\nThe workflow could not run because the submission issue did not contain a usable public GitHub repository URL.\n';
+              body += `\nReason: ${parseError}\n`;
+              body += '\nPlease update the `Repository Link:` field and edit the issue to rerun triage.\n';
+              core.setOutput('body', body);
+              return;
+            }
+
+            if (gitRefStatus === 'missing_ref' && gitRefValue) {
+              body += `\nNote: the workflow could not check out the submitted version \`${gitRefValue}\`, so the default branch was checked instead.\n`;
+            } else if (gitRefStatus === 'checked_out' && gitRefValue) {
+              body += `\nChecked out submitted ref: \`${gitRefValue}\`.\n`;
+            } else {
+              body += '\nChecked the repository default branch.\n';
+            }
+
+            body += '\nThis triage run is intentionally restricted to static packaging and documentation checks. It does not run tests, import the package, or build/install the project.\n';
+
+            let results = null;
+            if (fs.existsSync('pycmdcheck-results.json')) {
+              results = JSON.parse(fs.readFileSync('pycmdcheck-results.json', 'utf8'));
+            }
+
+            if (!results) {
+              body += '\nThe workflow did not produce a pycmdcheck results file. Please inspect the workflow run logs.\n';
+              core.setOutput('body', body);
+              return;
+            }
+
+            const summary = results.summary || {};
+            body += '\n### Summary\n';
+            body += `- Passed: ${summary.passed ?? 0}\n`;
+            body += `- Failed: ${summary.failed ?? 0}\n`;
+            body += `- Warnings: ${summary.warnings ?? 0}\n`;
+            body += `- Notes: ${summary.notes ?? 0}\n`;
+            body += `- Exit code: ${triageExitCode || 'unknown'}\n`;
+
+            body += '\n### CI Configuration\n';
+            if (ciStatus === 'passed') {
+              body += `- Passed: ${ciMessage}\n`;
+            } else if (ciStatus === 'failed') {
+              body += `- Failed: ${ciMessage}\n`;
+            } else {
+              body += '- Unable to determine CI configuration status.\n';
+            }
+
+            const failures = [];
+            for (const group of results.groups || []) {
+              for (const result of group.results || []) {
+                if (result.status === 'failed' || result.status === 'errored') {
+                  failures.push(result);
+                }
+              }
+            }
+
+            if (ciStatus === 'failed') {
+              failures.push({
+                check_id: 'PYO-CI',
+                severity: 'warning',
+                status: 'failed',
+                message: ciMessage,
+                hint: 'Add CI configuration such as GitHub Actions, CircleCI, GitLab CI, Travis CI, or Azure Pipelines.',
+              });
+            }
+
+            body += '\n### Findings\n';
+            if (failures.length === 0) {
+              body += '- No issues were found in the current automated triage subset.\n';
+            } else {
+              const displayed = failures.slice(0, 20).map(renderFailure).join('\n');
+              body += `${displayed}\n`;
+
+              if (failures.length > 20) {
+                body += `- Additional findings omitted: ${failures.length - 20}\n`;
+              }
+            }
+
+            body += '\n### Scope\n';
+            body += '- Included: repository structure, packaging metadata, documentation presence, changelog/version checks, test directory presence, and test naming conventions.\n';
+            body += '- Excluded: test execution, coverage, import/build/install checks, dependency audits, and network-heavy link validation.\n';
+
+            core.setOutput('body', body);
+
+      - name: Upsert triage comment
+        if: always()
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        env:
+          COMMENT_BODY: ${{ steps.comment.outputs.body }}
+        with:
+          script: |
+            const marker = '<!-- pyopensci-pycmdcheck-triage -->';
+            const body = process.env.COMMENT_BODY;
+
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              per_page: 100,
+            });
+
+            const existing = comments.find((comment) =>
+              comment.user?.type === 'Bot' && comment.body?.includes(marker)
+            );
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body,
+              });
+            }
