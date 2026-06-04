@@ -24,6 +24,16 @@ EiC: TBD
 
 - Include a brief paragraph describing what your package does:
 
+## Associated Publication (Optional)
+
+If your package is associated with a peer-reviewed publication, please provide the details below. This information helps us assess eligibility for our [publication fast-track pathway](https://www.pyopensci.org/software-peer-review/our-process/policies.html#publication-fast-track). If this does not apply, you can leave these fields blank.
+
+Publication Title:
+
+Publication DOI:
+
+Journal/Venue:
+
 ## Community Partnerships
 We partner with communities to support peer review with an additional layer of
 checks that satisfy community requirements. If your package fits into an
