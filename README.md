@@ -23,7 +23,7 @@ To submit your package for peer review, you can open a GitHub issue:
 
 
 ## Why submit a package to pyOpenSci? 
-There are [numerous benefits to submitting your package to us for review](https://www.pyopensci.org/peer-review-guide/about-peer-review/review-benefits.html?highlight=benefits) including:
+There are numerous benefits to submitting your package to us for review including:
 
 * **Get Seen:** pyOpenSci will promote your package to the community 
 * **Find support:** As a maintainer, you will become a part of our growing online community. Here, you will find people who you can ask questions and talk to about shared open source and open science challenges. 
@@ -35,7 +35,7 @@ There are [numerous benefits to submitting your package to us for review](https:
 Peer review is an important way to give back to the scientific Python 
 community. We see peer review as a two way conversation that in the end, improves the quality of scientific software. [Click here to view an example of how this conversation happens on a pre-submission inquiry](https://github.com/pyOpenSci/software-review/issues/65). We'd love to have you get involved! 
 
-1. [Click here to read our reviewer guide](https://www.pyopensci.org/peer-review-guide/software-peer-review-guide/reviewer-guide.html)
+1. [Click here to read our reviewer guide](https://www.pyopensci.org/software-peer-review/how-to/reviewer-guide.html)
 2. [Click here to sign up to be a reviewer in the future.](https://forms.gle/GHfxvmS47nQFDcBM6) 
 
 Peer review is an excellent way to strengthen your data science skills. If 
@@ -48,7 +48,7 @@ through [GitHub Discussions](https://github.com/orgs/pyOpenSci/discussions).
 * 📖 [Check out our python packaging guide](https://www.pyopensci.org/python-package-guide)
 * 📖 [Why is peer review open?](https://www.pyopensci.org/software-peer-review/about/why-open-review.html) 
 * 📖 [Why do we need peer review](https://www.pyopensci.org/software-peer-review/about/intro.html#peer-review-is-needed-in-the-scientific-community)
-* 📖 [What are the benefits of peer review?](https://www.pyopensci.org/peer-review-guide/about-peer-review/review-benefits.html)
+* 📖 [What are the benefits of peer review?](https://www.pyopensci.org/software-peer-review/about/benefits.html)
 * 📖 [Why is software peer review important](https://www.pyopensci.org/software-peer-review/about/intro.html#peer-review-is-needed-in-the-scientific-community)
 
 
