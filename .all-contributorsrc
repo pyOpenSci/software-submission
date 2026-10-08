@@ -172,6 +172,15 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "MicahGale",
+      "name": "Micah Gale",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12405772?v=4",
+      "profile": "https://github.com/MicahGale",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
