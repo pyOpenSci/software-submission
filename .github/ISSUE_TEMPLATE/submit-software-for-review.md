@@ -44,7 +44,7 @@ Date accepted (month/day/year): TBD
 
 ### If you have a policy around generative AI use in your project, please provide a link to it below
 
- _[Your link here](foo.com) (remove this line if you don't have a link)_
+ _[Your link here](https://www.pyopensci.org) (remove this line if you don't have a link)_
 
 ## Description
 
