@@ -1,6 +1,6 @@
 # Welcome to pyOpenSci Software Peer Review 👋 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-19-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Hi there! This repository is where pyOpenSci 
@@ -97,6 +97,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/e
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/dhomeier"><img src="https://avatars.githubusercontent.com/u/709020?v=4?s=100" width="100px;" alt="Derek Homeier"/><br /><sub><b>Derek Homeier</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/commits?author=dhomeier" title="Code">💻</a> <a href="https://github.com/pyOpenSci/software-submission/pulls?q=is%3Apr+reviewed-by%3Adhomeier" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://galenseilis.github.io/"><img src="https://avatars.githubusercontent.com/u/11385121?v=4?s=100" width="100px;" alt="Galen Seilis"/><br /><sub><b>Galen Seilis</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/commits?author=galenseilis" title="Code">💻</a> <a href="https://github.com/pyOpenSci/software-submission/pulls?q=is%3Apr+reviewed-by%3Agalenseilis" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/MicahGale"><img src="https://avatars.githubusercontent.com/u/12405772?v=4?s=100" width="100px;" alt="Micah Gale"/><br /><sub><b>Micah Gale</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/pulls?q=is%3Apr+reviewed-by%3AMicahGale" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/kysolvik"><img src="https://avatars.githubusercontent.com/u/24379590?v=4?s=100" width="100px;" alt="Kylen Solvik"/><br /><sub><b>Kylen Solvik</b></sub></a><br /><a href="https://github.com/pyOpenSci/software-submission/pulls?q=is%3Apr+reviewed-by%3Akysolvik" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/pyOpenSci/software-submission/commits?author=kysolvik" title="Documentation">📖</a> <a href="https://github.com/pyOpenSci/software-submission/issues?q=author%3Akysolvik" title="Bug reports">🐛</a></td>
     </tr>
   </tbody>
 </table>
