@@ -124,7 +124,7 @@ For details about the pyOpenSci packaging requirements, see our [packaging guide
 - [ ] The package contains a `paper.md` matching [JOSS's requirements][JossPaperRequirements] with a high-level description in the package root or in `inst/` by the time you wish to submit to JOSS.
 - [ ] The package is deposited in a long-term repository with the DOI:
 
-*Note: JOSS accepts our review as theirs. You will NOT need to go through another full review. JOSS will only review your paper.md file. Be sure to link to this pyOpenSci issue when a JOSS issue is opened for your package. Also be sure to tell the JOSS editor that this is a pyOpenSci reviewed package once you reach this step. Please note that the PyOpenSci reviewers will not be reviewing the paper.md file*
+_Note: JOSS accepts our review as theirs. You will NOT need to go through another full review. JOSS will only review your paper.md file. Be sure to link to this pyOpenSci issue when a JOSS issue is opened for your package. Also be sure to tell the JOSS editor that this is a pyOpenSci reviewed package once you reach this step. Please note that the PyOpenSci reviewers will not be reviewing the paper.md file_
 
 </details>
 
