@@ -42,7 +42,7 @@ Date accepted (month/day/year): TBD
 
 ### Describe the nature and scope of support that LLMs provided. Examples include code generation, autocomplete, documentation development, refactoring, test development
 
-### If you have a policy around generative AI use in your project, please provide a link to it below:
+### If you have a policy around generative AI use in your project, please provide a link to it below
 
 - _Your link here (remove this line if you don't have a link)_
 
