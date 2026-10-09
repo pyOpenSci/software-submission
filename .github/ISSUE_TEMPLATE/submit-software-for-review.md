@@ -11,8 +11,8 @@ Submitting Author: (@github_handle)
 All current maintainers: (@github_handle1, @github_handle2)
 Package Name: Package name here
 One-Line Description of Package: Description here
-Repository Link:
-Version submitted:
+Repository Link: [example GitHub repository URL]
+Version submitted: v0.1.0
 EiC: TBD
 Editor: TBD
 Reviewer 1: TBD
